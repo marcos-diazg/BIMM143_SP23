@@ -1,0 +1,131 @@
+---
+title: "Data wrangling in R - the tidy way!"
+author: "Kat Lee"
+date: "5/11/2021"
+output: html_document
+---
+
+### Outline
+1. Intro. to Nanopore direct RNA sequencing and today's dataset (see powerpoint)
+2. Intro. to tidyverse
+    - What is tidyverse and why use it?
+    - Pipes
+3. Key tidyverse commands
+    - Filter and select
+    - Rename, mutate, summarise
+    - Join
+    - Pivot longer and pivot wider
+4. Practice with ggplot2
+5. Resources
+
+### 3. Key tidyverse commands
+```{r}
+# Install tidyverse if you haven't already
+# install.packages("tidyverse")
+
+# load libraries
+library(tidyverse)
+
+# read in data
+nanopolish = read_tsv("polya_results_with_ERCC.tsv")
+nanopolish
+```
+
+#### Filter rows and select columns
+```{r}
+# How many polyA reads pass QC?
+filtered_nanopolish = nanopolish %>%
+  filter(polya_length > 0, qc_tag == "PASS")
+
+# Export read-ids of passQC polyA reads
+passQC_polyA_readIDs = nanopolish %>%
+  filter(polya_length > 0, qc_tag == "PASS") %>%
+  select(-readname, -polya_length)
+write_tsv(passQC_polyA_readIDs, "polya_results_onlypassQC.tsv")
+```
+
+### Rename, mutate, summarise
+```{r}
+# Let's rename the "contig" column to "transcript"
+renamed_nanopolish = filtered_nanopolish %>%
+  rename("transcript" = contig)
+```
+
+```{r}
+# Let's calculate read_time and polya_end
+# read_time should be equal to read_rate * polya_length
+# polya_end = polya_start + polya_length
+calculated_nanopolish = filtered_nanopolish %>%
+  mutate(read_time = read_rate * polya_length,
+         polya_end = polya_start + polya_length)
+```
+
+```{r}
+# Summarize data by transcript
+summarized_mrna = renamed_nanopolish %>%
+  group_by(transcript) %>%
+  summarise(numreads = length(unique(readname)),
+            arithmean = mean(polya_length),
+            sd = sd(polya_length),
+            median = median(polya_length))
+```
+
+### Join
+```{r}
+# What if we were interested in gene-level stats?
+# I made a "dictionary" that translates transcript ID to gene ID and gene symbol, so let's read it in
+dictionary = read_tsv("dictionary.tsv")
+
+# Join our renamed_nanopolish dataframe with the dictionary dataframe we just made by transcript ID
+nanopolish_gene = left_join(renamed_nanopolish, dictionary,
+                            by = c("transcript" = "ensembl_transcript_id_version"))
+
+# Take a look at the documentation for join. What are the different flavors of join and how do they differ?
+```
+
+### Now you try it!
+```{r}
+# Try summarizing this nanopolish_gene dataframe like we did with our renamed_nanopolish dataframe previously
+
+# What if I was only interested in genes with a minimum of 10 reads and only wanted to know their mean polyA tail length and standard deviation? Can you filter your summarized dataframe and select the appropriate columns?
+```
+
+
+## 4.) Practice with ggplot2
+Let's plot our transcript-level stats!
+```{r}
+# What is the distribution of polyA tail lengths binned by transcript?
+# Let's make a histogram
+summarized_mrna %>%
+  ggplot(aes(x = arithmean)) +
+  geom_histogram(binwidth = 1, fill = "steelblue") +
+  labs(title = "Distribution of mean* polyA tail lengths binned by transcript",
+       x = "Mean polyA tail length",
+       y = "Number of reads")
+```
+
+### Pivot_longer and pivot_wider
+```{r}
+# What is the distribution of all the polyA tail length stats we calculated?
+# Let's make violin plots
+# But wait! We need to first reformat our dataframe by pivoting longer.
+df_to_plot = summarized_mrna %>%
+  select(-numreads) %>%
+  pivot_longer(-transcript, names_to = "stat", values_to = "value")
+
+df_to_plot %>%
+  ggplot(aes(x = stat, y = value, color = stat, fill = stat)) +
+  geom_violin() +
+  labs(title = "Transcript-level polyA tail length statistics",
+       x = "Statistic",
+       y = "Value")
+
+# Pivot_wider does the exact opposite of pivot_longer so we can return our df to its original format
+original = df_to_plot %>%
+  pivot_wider(names_from = "stat", values_from = "value")
+```
+
+## 5. Resources
+- For visualization of tidy functions (helpful for pivot_longer/pivot_wider aka gather/spread): https://github.com/gadenbuie/tidyexplain
+- Cheatsheets: https://www.rstudio.com/resources/cheatsheets/
+
