@@ -12,13 +12,13 @@ marcos:
     : [Dr. Marcos Díaz-Gay](https://marcos-diazg.github.io/) (Email: <mdiazgay@ucsd.edu>)
 
     Instructional Assistants
-    : Kelly Flanders (Email: <kflander@ucsd.edu>)
-    : Jiawei Xu (Email: <j7xu@ucsd.edu>)    
+    : TBD (Email: <TBD>)
+    : TBD (Email: <TBD>)    
 
     Course Syllabus
-    : [Winter 2023 (PDF)](https://bioboot.github.io/bimm143_W23/class-material/BIMM143_W23_syllabus.pdf){:.no-push-state}
+    : [Spring 2023 (PDF)](https://github.com/marcos-diazg/BIMM143_SP23/class-material/BIMM143_SP23_syllabus_Diaz-Gay.pdf){:.no-push-state}
 
-    Course Director
+    Course Materials
     : [Prof. Barry J. Grant](http://thegrantlab.org/)
   
     {:.message}
@@ -98,12 +98,12 @@ marcos:
 #   a *piazza later in this ymal data file.
 #  TODO: uodate GRADEBOOK student and instructor link & OFICEHOUR
 corelinks:
-  syllabus:       &syllabus /class-material/BIMM143_SP23_syllabus.pdf
+  syllabus:       &syllabus /class-material/BIMM143_SP23_syllabus_Diaz-Gay.pdf
   piazza:         *piazza 
   gradescope:     *gradescope 
   youtube:        *youtube 
   questionnaire:  https://forms.gle/oh8up7vFV97TsXZs5
-  gradebook:      404.md #https://docs.google.com/spreadsheets/d/1wWZdIr3A2eux0l-iCUMAU9Hj_tTt1S2J9EIaahCwYnE/edit?usp=sharing
+  gradebook:      https://docs.google.com/spreadsheets/d/1qCQEXTBeaTK8N08z-K52wRRzYGsSnpuFU3m66JiuC58/edit?usp=share_link
   officehours:    https://ucsd.zoom.us/j/92563499659?pwd=K25WVWMzdUVUVVFnNnNJY3JNUmlZdz09
   officetime:     'Zoom on Thur @ 12:30pm'
 
