@@ -96,17 +96,16 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 **Supporting Material**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}  
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/class1/Major_Databases_BIMM143.pdf){:.no-push-state}{:target="_blank"}
-- Screencast Lab: [Live-stream video walk-through](https://youtu.be/ps0BkDZaiwo){:target="_blank"}{:.no-push-state}
+- Screencast Lab: [Video walk-through](https://youtu.be/ps0BkDZaiwo){:target="_blank"}{:.no-push-state}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Homework**:  
 - [Quiz](https://forms.gle/xrsL1e2nDnwk68mH7){:.no-push-state}{:target="_blank"},  
-- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
+- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - Readings: 
-  - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/class1/bioinformatics_review.pdf){:.no-push-state},  
-  - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/class1/bioinformatics_challenges_2015.pdf){:.no-push-state}.  
+  - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/class1/bioinformatics_review.pdf){:.no-push-state}
+  - PDF2: [Advancements and Challenges in Computational Biology]({{ site.baseurl }}/class-material/class1/bioinformatics_challenges_2015.pdf){:.no-push-state}
 
-<!-- 
 ---
 
 <a name="2"></a>
@@ -123,37 +122,35 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 **Videos:**  
-- 2.1 - [Alignment fundamentals](https://www.youtube.com/watch?v=SU22pycFrDk){:.no-push-state}{:target="_blank"},    
-- 2.2 - [Dot plots](http://youtu.be/nnPNwlzX2qg){:.no-push-state}{:target="_blank"},    
-- 2.3 - [Dynamic programing, global alignment](https://youtu.be/LkwgI2mHbik){:.no-push-state}{:target="_blank"},    
-- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/uhD77hnxM2g){:.no-push-state}{:target="_blank"},    
-  
+- 2.1 - [Alignment fundamentals](https://www.youtube.com/watch?v=SU22pycFrDk){:.no-push-state}{:target="_blank"}
+- 2.2 - [Dot plots](http://youtu.be/nnPNwlzX2qg){:.no-push-state}{:target="_blank"}
+- 2.3 - [Dynamic programing, global alignment](https://youtu.be/LkwgI2mHbik){:.no-push-state}{:target="_blank"}
+- 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/uhD77hnxM2g){:.no-push-state}{:target="_blank"}
+
+**Hands-on Lab**
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class2/lab2_sp23.pdf){:target="_blank"}{:.no-push-state}
+> Feedback: [Muddy Point Assessment](https://forms.gle/9g3UNEzkhQxAT6YU7){:.no-push-state}{:target="_blank"}
 
 **Supporting Material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
-- Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},     
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab2.pdf){:.no-push-state}{:target="_blank"}  
-- Lab: [Video walk-through](https://youtu.be/U4u8jJqA2PI){:target="_blank"}{:.no-push-state},   
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- Feedback: [Muddy Point Assessment](https://forms.gle/XFgux3J6pU34Qeen6){:.no-push-state}{:target="_blank"}.   
-     
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"}
+- Screencast Lab: [Video walk-through](https://youtu.be/U4u8jJqA2PI){:target="_blank"}{:.no-push-state}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
 **Homework**:   
-- [Questions](https://forms.gle/6aPiH2qkMeRUmprw8){:.no-push-state}{:target="_blank"},  
-- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/wk2_homework.pdf){:.no-push-state}{:target="_blank"},  
-- For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"},  
-- DataCamp: Sign-up to our **F21_Bioinformatics group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}.  
-
-
+- [Quiz](https://forms.gle/LVqjBc2hNzciu3nR6){:.no-push-state}{:target="_blank"}
+- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/class2/wk2_homework.pdf){:.no-push-state}{:target="_blank"} and submit it to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- For next week please [install R and RStudio]({{ site.baseurl }}/setup/){:.no-push-state}{:target="_blank"}
+<!-- - DataCamp: Sign-up to our **SP23_Bioinformatics group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}  -->
 
 **Readings**:    
-- Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/Dynamic_programming_primer.pdf){:.no-push-state},  
-- Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/Fundamentals.pdf){:.no-push-state}.   
+- Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/class2/Dynamic_programming_primer.pdf){:.no-push-state}
+- Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/class2/Fundamentals.pdf){:.no-push-state}
 
 
- 
+<!-- 
+
 ---
 <a name="21"></a>
 <br>

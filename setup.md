@@ -54,14 +54,19 @@ If you have a particularly old PC and require an older version (2.16 or below) f
 
 To check if your install worked you can click on the "*Windows Menu button*" > "*All Apps*" and scroll down to **Git** and click to expand and select **Git Bash**. This should open a mostly black command line window. Success!! We can go ahead and close this for now.    
 
-### XQuartz (Mac only)
+#### 5. MikTex (Windows only)
+Please install the [MikTex](https://miktex.org/download) LaTex framework, which we will be using to generate PDF reports directly from RStudio. 
+> **Note.** This is only required on Windows-based computers.
+
+Please download the `.exe` file for the latest version available (as of course launch the latest release is 22.10) and proceed with the installation. It is also important to check for all available updates after the installation to correctly set up MikTex.
+
+#### 6. XQuartz (Mac only)
 Please install [XQuartz](https://www.xquartz.org) a windowing environment required by some R packages.
 > **Note.** This is only required on macs.
 
 Download the linked DMG file (e.g. `XQuartz-2.8.5.dmg`). Once fully downloaded, double click to launch the installer and follow the regular steps.
 
-
-### (Optional) Apple Xcode Developer Tools (Mac only)
+#### (Optional) Apple Xcode Developer Tools (Mac only)
 Only a subset of folks who wish to install R packages from source code (rather than the default binary packages) will need to have Apple's command line tools. I can walk you through this process in class or office hours. Essentially, it boils down to opening a terminal and typing the following command: `xcode-select --install`. Don't worry if you don't know what this means yet as I will explain when we get to this point in the course. 
 
 
