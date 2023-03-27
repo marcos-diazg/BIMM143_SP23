@@ -15,8 +15,8 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 0  | - | [**Getting Oriented**](#0) <br> Course introduction, Learning goals & expectations, Meet the instructional team. Setup your computer with required software.                                                                                                                                               |
 | 1  | Wed 04/05/23 | [**Welcome to Bioinformatics**](#1) <br> Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources                                                                                                                                               |
 | 2  | Fri 04/07/23 | [**Sequence alignment fundamentals, algorithms and applications**](#2) <br> Homology, Sequence similarity, Local and global alignment, classic Needleman-Wunsch, Smith-Waterman and BLAST heuristic approaches, Hands on with dot plots, Needleman-Wunsch and BLAST algorithms highlighting their utility and limitations.                                                                                                                                                 |
-| 3  | Wed 04/12/23 | **Project:** [**Find a gene project assignment**](#21) <br> (Part 1) Principles of database searching, due in 2 weeks. (Part 2) Sequence analysis, structure analysis and general data analysis with R due at the end of the quarter.                                                                                                                                                                                                 |
-| *  | Wed 04/12/23 | **Optional:** [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons as a gold standard.                                                                                                                                                                             |
+| 3*  | Wed 04/12/23 | **Project:** [**Find a gene project assignment**](#21) <br> (Part 1) Principles of database searching, due in 2 weeks. (Part 2) Sequence analysis, structure analysis and general data analysis with R due at the end of the quarter.                                                                                                                                                                                                 |
+| 3  | Wed 04/12/23 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons as a gold standard.                                                                                                                                                                             |
 | 4  | Fri 04/14/23 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console. Introducing Rmarkdown documents.                                                                                              |
 | 5  | Wed 04/19/23  | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot. **N.B. This is a 9:30am TATA 2501 in-person class session.**                                                                                                                                                                                                                                                      |
 | 6  | Fri 04/21/23 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
@@ -132,7 +132,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 > Feedback: [Muddy Point Assessment](https://forms.gle/JwKrRCmdcYFjsmP4A){:.no-push-state}{:target="_blank"}
 
 **Supporting Material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [Video walk-through](https://youtu.be/U4u8jJqA2PI){:target="_blank"}{:.no-push-state}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
@@ -149,27 +149,26 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/class2/Fundamentals.pdf){:.no-push-state}
 
 
-<!-- 
 
 ---
 <a name="21"></a>
-<br>
 
 
 
-## 3: (**Project**) Find a Gene Assignment Part 1        
-The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM-143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
- 
-You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
- 
-- Your responses to questions Q1-Q4 are due **in two weeks** time.   
- 
-- The complete assignment, including responses to all questions, is due **Monday of week 10** at 12pm San Diego time.  
- 
-- In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.    
+## 3*: (**Project**) Find a Gene Assignment Part 1        
+The [**find-a-gene project**]({{ site.baseurl }}/class-material/project/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM 143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
+
+You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/project/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.
+
+- Your responses to questions Q1-Q4 are due **in three weeks** time (Tuesday, May 2 at 12pm).
+
+- The complete assignment, including responses to all questions, is due **Tuesday of week 10** (June 6) at 12pm.
+
+- In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.
 
 **Videos:**  
-- 3.1 - [Project introduction](https://youtu.be/t0EfxbEpvW4){:.no-push-state}{:target="_blank"} Please note: due dates may differ from those in video.    
+- 3.1 - [Project introduction](https://youtu.be/t0EfxbEpvW4){:.no-push-state}{:target="_blank"}
+> Please note: due dates may differ from those in video.    
 
 
 
@@ -179,7 +178,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
 ## 3: Advanced sequence alignment and database searching
 
 **Topics**:  
-Detecting remote sequence similarity, Substitution matrices, Database searching beyond BLAST with PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.
+Detecting remote sequence similarity. Substitution matrices. Database searching beyond BLAST with PSI-BLAST. Profiles and HMMs. Protein structure comparisons. Beginning with command line based database searches.
 
 **Goal**:  
 - Be able to calculate the alignment score between protein (or nucleotide) sequences using a provided scoring matrix such as BLOSUM62.  
@@ -189,21 +188,20 @@ Detecting remote sequence similarity, Substitution matrices, Database searching 
 - Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.  
 - Be familiar with the concepts of True Positives, False Positives, Sensitivity and Specificity.  
 
-**Material**:   
- 
- - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},    
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab3.pdf){:.no-push-state}{:target="_blank"},  
-- Bonus: [Alignment App](https://bioboot.github.io/bimm143_W20/class-material/nw/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy Point Assessment](https://forms.gle/TxSZcAG29qv84DEc6){:.no-push-state}{:target="_blank"}.   
-  
+**Hands-on Lab**:   
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class3/lab3_sp23.pdf){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy Point Assessment](https://forms.gle/NFriqivMdgNUzMD96){:.no-push-state}{:target="_blank"}
 
-
+**Supporting Material:**
+ - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class3/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class3/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Bonus: [Alignment App](https://marcos-diazg.github.io/BIMM143_SP23/class-material/class3/nw/){:.no-push-state}{:target="_blank"}
 
 **Homework**:   
-- [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
-- **DataCamp**: Sign-up to our [**w23_bimm143** group/organization](https://app.datacamp.com/groups/w23_bimm143/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
+- [Questions](https://docs.google.com/document/d/1ruSvmoUzmOX77t81LdIPy7xjxav0OcPWRHHCKslspGg/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
+<!-- - **DataCamp**: Sign-up to our [**w23_bimm143** group/organization](https://app.datacamp.com/groups/w23_bimm143/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).   -->
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
+<!-- 
 
 ---
 <a name="4"></a>
