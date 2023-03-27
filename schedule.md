@@ -91,7 +91,7 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 
 **Hands-on Lab**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class1/lab1_sp23.pdf){:target="_blank"}{:.no-push-state}
-> Feedback: [Muddy Point Assessment](https://forms.gle/uSHVuqfP3jADg1DR6){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy Point Assessment](https://forms.gle/L2Lpzm4aWUvwvA7n8){:.no-push-state}{:target="_blank"}
 
 **Supporting Material**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}  
@@ -100,7 +100,7 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Homework**:  
-- [Quiz](https://forms.gle/xrsL1e2nDnwk68mH7){:.no-push-state}{:target="_blank"},  
+- [Quiz](https://forms.gle/iEBpDJz4qpiNsUit9){:.no-push-state}{:target="_blank"},  
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/class1/bioinformatics_review.pdf){:.no-push-state}
@@ -129,7 +129,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 **Hands-on Lab**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class2/lab2_sp23.pdf){:target="_blank"}{:.no-push-state}
-> Feedback: [Muddy Point Assessment](https://forms.gle/9g3UNEzkhQxAT6YU7){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy Point Assessment](https://forms.gle/JwKrRCmdcYFjsmP4A){:.no-push-state}{:target="_blank"}
 
 **Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
@@ -138,7 +138,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
 **Homework**:   
-- [Quiz](https://forms.gle/LVqjBc2hNzciu3nR6){:.no-push-state}{:target="_blank"}
+- [Quiz](https://forms.gle/MgQbfcN3K1tAVs8L8){:.no-push-state}{:target="_blank"}
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/class2/wk2_homework.pdf){:.no-push-state}{:target="_blank"} and submit it to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - For next week please [install R and RStudio]({{ site.baseurl }}/setup/){:.no-push-state}{:target="_blank"}
