@@ -61,7 +61,7 @@ To fully participate in this course students will be expected to use their own c
 
 
 ## Schedule
-For the Spring 2023 quarter, BIMM 143 will be offered **in-person only** on Wednesdays and Fridays at 12 - 3 pm in YORK 3050 ([map](https://goo.gl/maps/TzUkF2wyrV6qurpo9){:target="_blank"}). Additional video lectures, screencast lab review sessions and supporting material will be available via this website on a weekly basis throughout the quarter. A detailed [schedule]({{ site.baseurl }}/schedule/) with class related material is provided online.
+For the Spring 2023 quarter, BIMM 143 will be offered **in-person only** on Wednesdays and Fridays at 12 - 3 pm in YORK 3050 ([map](https://goo.gl/maps/V7xUaJyUDxiGzxyBA){:target="_blank"}). Additional video lectures, screencast lab review sessions and supporting material will be available via this website on a weekly basis throughout the quarter. A detailed [schedule]({{ site.baseurl }}/schedule/) with class related material is provided online.
 
 
 ## Office hours

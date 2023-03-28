@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at 12 - 3 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on "lab session" sheets, walk-through screencasts, required reading material and homework assignments.
+For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at 12 - 3 pm in YORK 3050 ([map](https://goo.gl/maps/V7xUaJyUDxiGzxyBA){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on "lab session" sheets, walk-through screencasts, required reading material and homework assignments.
 
 <br>
 
