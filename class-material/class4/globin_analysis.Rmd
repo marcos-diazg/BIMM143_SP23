@@ -104,5 +104,3 @@ library(pheatmap)
 ide <- seqidentity(aln)
 pheatmap((1-ide))
 ```
-
-Take some time to discuss this plot with your neighbor, IA's and Barry to make sure you understand what is being displayed.

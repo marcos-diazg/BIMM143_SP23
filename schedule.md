@@ -18,7 +18,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 3*  | Wed 04/12/23 | **Project:** [**Find a gene project assignment**](#21) <br> (Part 1) Principles of database searching, due in 2 weeks. (Part 2) Sequence analysis, structure analysis and general data analysis with R due at the end of the quarter.                                                                                                                                                                                                 |
 | 3  | Wed 04/12/23 | [**Advanced sequence alignment and database searching**](#3) <br> Detecting remote sequence similarity, Database searching beyond BLAST, Substitution matrices, Using PSI-BLAST, Profiles and HMMs, Protein structure comparisons as a gold standard.                                                                                                                                                                             |
 | 4  | Fri 04/14/23 | [**Bioinformatics data analysis with R**](#4) <br> Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console. Introducing Rmarkdown documents.                                                                                              |
-| 5  | Wed 04/19/23  | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot. **N.B. This is a 9:30am TATA 2501 in-person class session.**                                                                                                                                                                                                                                                      |
+| 5  | Wed 04/19/23  | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.                                                                                                                                                                                                                                                    |
 | 6  | Fri 04/21/23 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
 | 7  | Wed 04/26/23 | [**Introduction to machine learning for Bioinformatics 1**](#7) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
 | 8  | Fri 04/28/23 | [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
@@ -58,7 +58,7 @@ Course introduction. Learning goals & expectations. Meet the instructional team.
 **Videos:**
 - 0.1 - [Welcome to BIMM143 (course introduction and overview)](https://youtu.be/hXd58ESRf9w){:target="_blank"}  
 - 0.2 - [Website overview (finding course content and installing software)](http://youtu.be/DjUZaPHxObk){:target="_blank"} 
-> Note: format and links on the current website may differ from those in video.
+> **Note:** format and links on the current website may differ from those in video.
 
 
 **Supporting material:**  
@@ -142,7 +142,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/class2/wk2_homework.pdf){:.no-push-state}{:target="_blank"} and submit it to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - For next week please [install R and RStudio]({{ site.baseurl }}/setup/){:.no-push-state}{:target="_blank"}
-<!-- - DataCamp: Sign-up to our **SP23_Bioinformatics group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}  -->
+- DataCamp: Sign-up to our **BIMM143_DiazGay group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} 
 
 **Readings**:    
 - Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/class2/Dynamic_programming_primer.pdf){:.no-push-state}
@@ -168,7 +168,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
 
 **Videos:**  
 - 3.1 - [Project introduction](https://youtu.be/t0EfxbEpvW4){:.no-push-state}{:target="_blank"}
-> Please note: due dates may differ from those in video.    
+> **Note:** due dates may differ from those in video.    
 
 
 
@@ -197,11 +197,13 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 - Bonus: [Alignment App](https://marcos-diazg.github.io/BIMM143_SP23/class-material/class3/nw/){:.no-push-state}{:target="_blank"}
 
 **Homework**:   
-- [Questions](https://docs.google.com/document/d/1ruSvmoUzmOX77t81LdIPy7xjxav0OcPWRHHCKslspGg/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
-<!-- - **DataCamp**: Sign-up to our [**w23_bimm143** group/organization](https://app.datacamp.com/groups/w23_bimm143/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).   -->
-- [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
+- [Questions](https://docs.google.com/document/d/1ruSvmoUzmOX77t81LdIPy7xjxav0OcPWRHHCKslspGg/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions
+- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- **DataCamp**: Sign-up to our [**BIMM143_DiazGay** group/organization](https://app.datacamp.com/groups/bimm143_diazgay/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
+- [RStudio and R download and setup]({{ site.baseurl }}/setup/)
 
-<!-- 
+
+
 
 ---
 <a name="4"></a>
@@ -209,38 +211,42 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 
 
 **Topics:**
-Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major R data structures and functions, Using R interactively from the RStudio console.
+Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major R data structures and functions. Using R interactively from the RStudio console.
 
 **Goal:**
 - Understand why we use R for bioinformatics
-- Familiarity with R’s basic syntax,
-- Familiarity with major R data structures (vectors, data.frames and lists),
-- Understand the basics of using functions (arguments, vectorizion and re-cycling).
+- Familiarity with R’s basic syntax
+- Familiarity with major R data structures (vectors, data.frames and lists)
+- Understand the basics of using functions (arguments, vectorizion and re-cycling)
 
 
 **Videos:**
-- 4.1 [Why R and RStudio](https://youtu.be/Asm2PHOZAcE){:.no-push-state}{:target="_blank"},    
-- 4.2 [Major R data structures, data types, and using functions](http://youtu.be/3LOTxeQEHSM){:.no-push-state}{:target="_blank"},  
-- 4.3 [Working with DataCamp](https://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}  **N.B.** Use your UCSD email invite to sign up and visit our class group/organization.    
+- 4.1 [Why R and RStudio](https://youtu.be/Asm2PHOZAcE){:.no-push-state}{:target="_blank"}
+- 4.2 [Major R data structures, data types, and using functions](http://youtu.be/3LOTxeQEHSM){:.no-push-state}{:target="_blank"}
+- 4.3 [Working with DataCamp](https://www.youtube.com/watch?v=q_GUl2YRoVk){:.no-push-state}{:target="_blank"}
+> **Note:** Use your UCSD email invite to sign up and visit our class group/organization
+
+**Hands-on Lab:**
+- Lab: [Hands-on section]({{ site.baseurl }}/class-material/class4/lab4_sp23/){:.no-push-state} 
+> Feedback: [Muddy point assessment](https://forms.gle/Vo1cn1j2NUHzjPH37){:.no-push-state}{:target="_blank"}
 
 **Supporting Material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture4-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
-- Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
-- Lab: [Hands-on section]({{ site.baseurl }}/class-material/04_rintro/){:.no-push-state},  
-- Lab: [Video walk-through](https://youtu.be/QQ7KPg2NnpY?t=1098){:target="_blank"}{:.no-push-state} focusing on introducing R data structures and core syntax,
-- Extra credit lab: [Introduction to data in R]({{ site.baseurl }}/class-material/lab4.pdf){:.no-push-state}{:target="_blank"},  
-- Optional extension: [Advanced conservation analysis of globins with R]({{ site.baseurl }}/class-material/globin_analysis){:.no-push-state} this demonstrates where we are going on our R learning journey. You should be able to do analysis like this on your own at the end of the course.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
-  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class4/lecture4-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class4/lecture4-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/class4/base-r.pdf){:target="_blank"}{:.no-push-state}
+- Screencast Lab: [Video walk-through](https://youtu.be/QQ7KPg2NnpY?t=1098){:target="_blank"}{:.no-push-state} focusing on introducing R data structures and core syntax
+- Optional extension: [Advanced conservation analysis of globins with R]({{ site.baseurl }}/class-material/class4/globin_analysis){:.no-push-state} this demonstrates where we are going on our R learning journey. You should be able to do analysis like this on your own at the end of the course.  
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+
+**Homework:**
+- [Quiz](https://forms.gle/zLducArgkPY8ij5Z8){:.no-push-state}{:target="_blank"}
+- Submit your lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- **DataCamp**: Sign-up to our **BIMM143_DiazGay group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs)
+
+**[OPTIONAL] Extra Credit:**
+- Extra credit lab: [Introduction to data in R]({{ site.baseurl }}/class-material/class4/ec4_sp23.pdf){:.no-push-state}{:target="_blank"}
 
 
-**Homework**:   
-- [Questions](https://forms.gle/JPXDU2ukB7DsiqUz8){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Sign-up to our **w23_bimm143 group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs).  
-    
-
-
+<!-- 
 
 ---
 <a name="5"></a>
@@ -270,7 +276,7 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lab5.html){:.no-push-state}{:target="_blank"},
 - Lab: Live screencast [video walk-through](https://youtu.be/p9ap6X1V3mo){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
  
  
@@ -309,7 +315,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"},   
 - Lab: Live screencast [video walk-through](https://youtu.be/Zr9BVGGhaNc){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.   
 - Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
 
  
@@ -355,7 +361,7 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab7.html){:.no-push-state}{:target="_blank"},  
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
 - Lab: Live screencast [video walk-through](https://youtu.be/SERsmSnwpnk){:target="_blank"}{:.no-push-state}.
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
 
@@ -450,7 +456,7 @@ A fun and topical mini-project with unsupervised learning analysis of halloween_
 ## 11: Genome informatics
 
 **Topics:** 
-Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2. **N.B.** This is an **online-only class session**.  
+Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2.
 
 **Goals:**
 - Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
@@ -473,7 +479,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab.  
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 
 - Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
 
@@ -514,7 +520,7 @@ Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statisti
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/Class15.html){:.no-push-state}{:target="_blank"},  
 - Lab: Live screencast [video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.  
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
 
 
@@ -590,7 +596,7 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
   * (Part I) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
   * (Part II) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
 - AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
-- Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
  
 

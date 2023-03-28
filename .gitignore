@@ -5,4 +5,4 @@ _site/
 bck_class_material/
 .DS_Store
 Gemfile.lock
-
+.vscode/settings.json
