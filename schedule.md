@@ -62,11 +62,11 @@ Course introduction. Learning goals & expectations. Meet the instructional team.
 
 
 **Supporting material:**  
-- Handout: [Class Syllabus]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}{:target="_blank"},  
-- Pre-course [Questionnaire]({{ site.data.authors.corelinks.questionnaire }}){:target="_blank"},   
-- Computer [Setup Instructions]({{ site.baseurl }}/setup/).  
-- Sign up for our [Piazza class Q&A site]({{ site.data.authors.corelinks.piazza }}){:target="_blank"},     
-- View the class [**GradeBook**]({{ site.data.authors.corelinks.gradebook }}){:target="_blank"}.  
+- Handout: [Class Syllabus]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}{:target="_blank"}
+- Pre-course [Questionnaire]({{ site.data.authors.corelinks.questionnaire }}){:target="_blank"}
+- Computer [Setup Instructions]({{ site.baseurl }}/setup/)
+- Sign up for our [Piazza class Q&A site]({{ site.data.authors.corelinks.piazza }}){:target="_blank"}
+- View the class [**GradeBook**]({{ site.data.authors.corelinks.gradebook }}){:target="_blank"}
 
 
 ---
@@ -180,7 +180,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
 **Topics**:  
 Detecting remote sequence similarity. Substitution matrices. Database searching beyond BLAST with PSI-BLAST. Profiles and HMMs. Protein structure comparisons. Beginning with command line based database searches.
 
-**Goal**:  
+**Goals**:  
 - Be able to calculate the alignment score between protein (or nucleotide) sequences using a provided scoring matrix such as BLOSUM62.  
 - Understand the limits of homology detection with tools such as BLAST.  
 - Know how to derive a PROSITE style regular expression for aligned motifs.  
@@ -204,7 +204,6 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 
 
 
-
 ---
 <a name="4"></a>
 ## 4: Bioinformatics data analysis with R
@@ -213,11 +212,11 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 **Topics:**
 Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major R data structures and functions. Using R interactively from the RStudio console.
 
-**Goal:**
-- Understand why we use R for bioinformatics
-- Familiarity with R’s basic syntax
-- Familiarity with major R data structures (vectors, data.frames and lists)
-- Understand the basics of using functions (arguments, vectorizion and re-cycling)
+**Goals:**
+- Understand why we use R for bioinformatics.
+- Familiarity with R’s basic syntax.
+- Familiarity with major R data structures (vectors, data.frames and lists).
+- Understand the basics of using functions (arguments, vectorizion and re-cycling).
 
 
 **Videos:**
@@ -240,23 +239,22 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major
 **Homework:**
 - [Quiz](https://forms.gle/zLducArgkPY8ij5Z8){:.no-push-state}{:target="_blank"}
 - Submit your lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
-- **DataCamp**: Sign-up to our **BIMM143_DiazGay group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (4hrs)
+- **DataCamp**: Sign-up to our **BIMM143_DiazGay group/organization** via the link in your UCSD email and **complete** [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (~4hrs)
 
 **[OPTIONAL] Extra Credit:**
 - Extra credit lab: [Introduction to data in R]({{ site.baseurl }}/class-material/class4/ec4_sp23.pdf){:.no-push-state}{:target="_blank"}
 
 
-<!-- 
 
 ---
 <a name="5"></a>
 ## 5: Data exploration and visualization in R
 
 **Topics:** 
-The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.
+The exploratory data analysis mindset. Data visualization best practices. Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots, and heatmaps). Building more complex charts with ggplot.
 
 
-**Goal:**
+**Goals:**
 - Appreciate the major elements of exploratory data analysis and why it is important to visualize data.  
 - Be conversant with data visualization best practices and understand how good visualizations optimize for the human visual system.  
 - Be able to generate informative graphical displays including scatterplots, histograms, bar graphs, boxplots, dendrograms and heatmaps and thereby gain exposure to the extensive graphical capabilities of R.  
@@ -266,28 +264,30 @@ The exploratory data analysis mindset, Data visualization best practices, Simple
 
 
 **Videos:**
-- 5.1 - [Why visualize data?](https://youtu.be/R_b7g5sGzwY){:.no-push-state}{:target="_blank"},   
-- 5.2 - [Data visualization best practices](https://youtu.be/0WPeOxrboug){:.no-push-state}{:target="_blank"},   
-- 5.3 - [Introduction to ggplot](https://youtu.be/qtfJa8muH9E){:.no-push-state}{:target="_blank"},   
-- 5.4 - Optional: [The **g**rammar of **g**raphics - the **gg** in ggplot](https://vimeo.com/332290655){:.no-push-state}{:target="_blank"},   
+- 5.1 - [Why visualize data?](https://youtu.be/R_b7g5sGzwY){:.no-push-state}{:target="_blank"}  
+- 5.2 - [Data visualization best practices](https://youtu.be/0WPeOxrboug){:.no-push-state}{:target="_blank"}
+- 5.3 - [Introduction to ggplot](https://youtu.be/qtfJa8muH9E){:.no-push-state}{:target="_blank"}
+<!-- - 5.4 - Optional: [The **g**rammar of **g**raphics - the **gg** in ggplot](https://vimeo.com/332290655){:.no-push-state}{:target="_blank"},    -->
 
+**Hands-on Lab:**
+- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/class5/lab5_sp23.html){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/5uykvYTHTxvWjVfD9){:.no-push-state}{:target="_blank"}
 
 **Supporting Material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture5-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/lab5.html){:.no-push-state}{:target="_blank"},
-- Lab: Live screencast [video walk-through](https://youtu.be/p9ap6X1V3mo){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- Feedback: [Muddy point assessment](https://forms.gle/FJHD9Bnrmgj32Tk69){:.no-push-state}{:target="_blank"},  
- 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class5/lecture5-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class5/lecture5-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Screencast Lab: [Video walk-through](https://youtu.be/p9ap6X1V3mo){:target="_blank"}{:.no-push-state}
+- Side-Note: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}
+- Check-out the [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} website and the [ggplot cheat sheat](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf){:.no-push-state}{:target="_blank"}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
  
 **Homework**:   
-- [Questions](https://forms.gle/A3dt6iw7BJK4egfLA){:.no-push-state}{:target="_blank"},  
-- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- DataCamp: [Introduction to Data Visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} (~4hrs).    
-- SideNote: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}.  
-- Check-out the new website: [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} and [ggplot cheat sheat](https://www.rstudio.com/resources/cheatsheets/){:.no-push-state}{:target="_blank"}.  
+- [Quiz](https://forms.gle/aDujhaRG3rtHUEoJ8){:.no-push-state}{:target="_blank"} 
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: [Introduction to data visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} (~4hrs)   
+
 
  
+<!-- 
 
 ---
 <a name="6"></a>
