@@ -295,7 +295,7 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 The why, when and how of writing your own R functions with worked examples. Further extending functionality and utility with R packages. Obtaining R packages from CRAN and Bioconductor. Working with Bio3D for molecular data. Managing genome-scale data with Bioconductor.
 
 **Goals:**
-- Understand the structure and syntax of R functions and how to view the code of any R function/
+- Understand the structure and syntax of R functions and how to view the code of any R function.
 - Be able to follow a step by step process of going from a working code snippet to a more robust function that reduces duplication and facilitate code re-use.
 - Be able to find and install R packages from CRAN and bioconductor.
 - Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.
@@ -314,7 +314,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 **Supporting material:**  
 - Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/class6/lecture06-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Pt2. Large PDF]({{ site.baseurl }}/class-material/class6/lecture07-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [video walk-through](https://youtu.be/Zr9BVGGhaNc){:target="_blank"}{:.no-push-state}  
-- Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"}
+- Bonus: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
  
@@ -329,70 +329,64 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Flat files for practicing importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/class6/test1.txt){:.no-push-state} / [test2.txt]({{ site.baseurl }}/class-material/class6/test2.txt){:.no-push-state} / [test3.txt]({{ site.baseurl }}/class-material/class6/test3.txt){:.no-push-state}
 
 
-<!-- 
 
 ---
 <a name="7"></a>
 ## 7: Introduction to machine learning for Bioinformatics
 
 **Topics:** 
-Unsupervised learning, supervised learning and reinforcement learning; Focus on unsupervised learning, K-means clustering, Hierarchical clustering, Dimensionality reduction, visualization and analysis, Principal Component Analysis (PCA) Practical considerations and best practices for the analysis of high dimensional datasets.
+Unsupervised learning, supervised learning, and reinforcement learning. Focus on unsupervised learning. K-means clustering. Hierarchical clustering. Dimensionality reduction, visualization, and analysis. Principal Component Analysis (PCA). Practical considerations and best practices for the analysis of high dimensional datasets.
 
 
-**Goal:**  
+**Goals:**  
 - Understand the major differences between unsupervised and supervised learning.  
-- Be able to create k-means and hierarchical cluster models in R  
+- Be able to create k-means and hierarchical cluster models in R.
 - Be able to describe how the k-means and bottom-up hierarchical cluster algorithms work.  
 - Know how to visualize and integrate clustering results and select good cluster models.  
 - Be able to describe in general terms how PCA works and its major objectives.  
-- Be able to apply PCA to high dimensional datasets and visualize and integrate PCA results (e.g identify outliers, find structure in features and aid in complex dataset visualization).
+- Be able to apply PCA to high dimensional datasets and visualize and integrate PCA results (e.g., identify outliers, find structure in features and aid in complex dataset visualization).
 
 
 
 **Videos:**
-- 7.1 - [Introduction to unsupervised learning and K-means clustering](http://youtu.be/k2QPXRtTons){:.no-push-state}{:target="_blank"},  
-- 7.2 - [Hierarchical clustering](https://youtu.be/lU8S_Do3OPQ){:.no-push-state}{:target="_blank"},  
-- 7.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/Olm0gW6OXIg){:.no-push-state}{:target="_blank"}.   
-  
+- 7.1 - [Introduction to unsupervised learning and K-means clustering](http://youtu.be/k2QPXRtTons){:.no-push-state}{:target="_blank"}
+- 7.2 - [Hierarchical clustering](https://youtu.be/lU8S_Do3OPQ){:.no-push-state}{:target="_blank"}
+- 7.3 - [Principal component analysis (PCA) Pt.1](http://youtu.be/Olm0gW6OXIg){:.no-push-state}{:target="_blank"} 
+
+**Hands-on Lab:**
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class7/lab07_sp23.html){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/oPbcfpZofEx28Wqz6){:.no-push-state}.  
 
 **Supporting material:**  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture08-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
-- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/pca/){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section worksheet for PCA]({{ site.baseurl }}/class-material/lab7.html){:.no-push-state}{:target="_blank"},  
-- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/UK_foods.csv){:.no-push-state}, [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.  
-- Lab: Live screencast [video walk-through](https://youtu.be/SERsmSnwpnk){:target="_blank"}{:.no-push-state}.
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-
-- Feedback: [Muddy point assessment](https://docs.google.com/forms/d/e/1FAIpQLSdiQn7n6XvvRGq5AfQWaRa7G22-twFCN4bYNANCWSK09DBYZg/viewform){:.no-push-state}.  
-
- 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class7/lecture08-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class7/lecture08-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- WebApp: [Introduction to PCA]({{ site.baseurl }}/class-material/class7/pca/){:.no-push-state}{:target="_blank"}
+- Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/class7/UK_foods.csv){:.no-push-state} / [expression.csv]({{ site.baseurl }}/class-material/class7/expression.csv){:.no-push-state} 
+- Screencast Lab: [video walk-through](https://youtu.be/SERsmSnwpnk){:target="_blank"}{:.no-push-state}
+- Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}  
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Homework**:   
-- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- DataCamp: [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs).   
- 
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
-**Other Material**:  
-- Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}.   
-
-
-
+<!--
 ---
 <a name="8"></a>
+## 8: Unsupervised Learning Mini-Project
 
+**Topics:** Hands-on project session with unsupervised learning analysis of cancer cells. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
-## 8: Unsupervised Learning Mini-Project  
-**Topics**: Hands-on project session with unsupervised learning analysis of cancer cells, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
-
-**Goals**:   
-- Be able to import data and prepare data for unsupervised learning analysis.
+**Goals:**
+- Be able to import and prepare data for unsupervised learning analysis.
 - Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
 
-**Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+**Hands-on Lab:**
 - Lab Mini-Project: [Unsupervised learning analysis of breast cancer cells]({{ site.baseurl }}/class-material/wk7_miniproject.html){:.no-push-state}{:target="_blank"},  
-- Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.     
+- Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.
+
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
+     
 - Feedback: [Muddy point assessment](https://goo.gl/forms/1dkWdpJ4BNgtGHsR2){:.no-push-state}.   
 
 - Bonus: [Kevin’s StackExchange Link on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}.   
@@ -402,6 +396,8 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs).   
 
+
+ 
 
 ---
 <a name="9"></a> 
