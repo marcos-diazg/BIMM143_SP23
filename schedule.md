@@ -287,49 +287,49 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 
 
  
-<!-- 
-
 ---
 <a name="6"></a>
 ## 6: R functions and R packages from CRAN and BioConductor
 
 **Topics:** 
-The why, when and how of writing your own R functions with worked examples. Further extending functionality and utility with R packages, Obtaining R packages from CRAN and Bioconductor, Working with Bio3D for molecular data, Managing genome-scale data with bioconductor.
+The why, when and how of writing your own R functions with worked examples. Further extending functionality and utility with R packages. Obtaining R packages from CRAN and Bioconductor. Working with Bio3D for molecular data. Managing genome-scale data with Bioconductor.
 
 **Goals:**
-- Understand the structure and syntax of R functions and how to view the code of any R function,  
-- Be able to follow a step by step process of going from a working code snippet to a more robust function that reduces duplication and facilitate code re-use,    
-- Be able to find and install R packages from CRAN and bioconductor,  
-- Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.    
+- Understand the structure and syntax of R functions and how to view the code of any R function/
+- Be able to follow a step by step process of going from a working code snippet to a more robust function that reduces duplication and facilitate code re-use.
+- Be able to find and install R packages from CRAN and bioconductor.
+- Understand how to find and use package vignettes, demos, documentation, tutorials and source code repository where available.
 
 **Videos:**  
-- 6.1 - [Writing your own functions (why, when and how)](https://youtu.be/NzIHZyywsAo){:.no-push-state}{:target="_blank"},
-- 6.2 - [Introduction to CRAN & BioConductor](https://youtu.be/qAvJ92qCGqE){:.no-push-state}{:target="_blank"},
-- 6.3 - [Quick introduction to RMarkdown](https://www.youtube.com/watch?v=O7GMs9V3HQk){:.no-push-state}{:target="_blank"},  
-- 6.4 - Optional longer video: [Getting started with RMarkdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/){:.no-push-state}{:target="_blank"}.  
+- 6.1 - [Writing your own functions (why, when and how)](https://youtu.be/NzIHZyywsAo){:.no-push-state}{:target="_blank"}
+- 6.2 - [Introduction to CRAN & BioConductor](https://youtu.be/qAvJ92qCGqE){:.no-push-state}{:target="_blank"}
+- 6.3 - [Quick introduction to RMarkdown](https://www.youtube.com/watch?v=O7GMs9V3HQk){:.no-push-state}{:target="_blank"}
+- 6.4 - Optional longer video: [Getting started with RMarkdown](https://rstudio.com/resources/webinars/getting-started-with-r-markdown/){:.no-push-state}{:target="_blank"}  
 
+**Hands-on Lab:**
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class6/lab06_sp23.pdf){:.no-push-state}{:target="_blank"}
+- Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/class6/lecture6-BIMM143_F20.pdf){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/4Tnks8NZykGaABMaA){:.no-push-state}
 
 **Supporting material:**  
-- Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/lecture6-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Pt2. Large PDF]({{ site.baseurl }}/class-material/lecture07-BIMM143-large.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab_class06.pdf){:.no-push-state}{:target="_blank"},  
-- Lab supplement: [Hands-on section supplemental information]({{ site.baseurl }}/class-material/lecture6-BIMM143_W19.pdf){:.no-push-state}{:target="_blank"},   
-- Lab: Live screencast [video walk-through](https://youtu.be/Zr9BVGGhaNc){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.   
-- Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"},  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- Feedback: [Muddy point assessment](https://forms.gle/Y8un1ziwe99GYq1r6){:.no-push-state}.  
+- Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/class6/lecture06-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Pt2. Large PDF]({{ site.baseurl }}/class-material/class6/lecture07-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}
+- Screencast Lab: [video walk-through](https://youtu.be/Zr9BVGGhaNc){:target="_blank"}{:.no-push-state}  
+- Extra: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
  
 **Homework**:   
-- [Questions](https://forms.gle/EVetXGwRVtkXX9oGA){:.no-push-state}{:target="_blank"},  
-- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/lecture6-BIMM143_F20.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document.      
-- **DataCamp**: Please work toward completing any outstanding courses including [Intro to R](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}, [Intro to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} and [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"}.   
+- [Quiz](https://forms.gle/7THKTrvjA2ChJrX58){:.no-push-state}{:target="_blank"}
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/class6/lecture6-BIMM143_F20.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document
+- **DataCamp**: Please complete the [Introduction to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} course
 
 
 **Other**:  
-- Flat files for practicing importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/test1.txt){:.no-push-state}, [test2.txt]({{ site.baseurl }}/class-material/test2.txt){:.no-push-state}, [test3.txt]({{ site.baseurl }}/class-material/test3.txt){:.no-push-state}.  
+- Flat files for practicing importing with read.table: [test1.txt]({{ site.baseurl }}/class-material/class6/test1.txt){:.no-push-state} / [test2.txt]({{ site.baseurl }}/class-material/class6/test2.txt){:.no-push-state} / [test3.txt]({{ site.baseurl }}/class-material/class6/test3.txt){:.no-push-state}
 
 
+<!-- 
 
 ---
 <a name="7"></a>
