@@ -155,7 +155,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 
 
-## 3*: (**Project**) Find a Gene Assignment Part 1        
+## 3*: (**Project**) Find a gene assignment
 The [**find-a-gene project**]({{ site.baseurl }}/class-material/project/Find_A_Gene_Project.pdf){:.no-push-state} is a required assignment for BIMM 143. The objective with this assignment is for you to demonstrate your grasp of database searching, sequence analysis, structure analysis and the R environment that we have covered to date in class.
 
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/project/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.
@@ -289,7 +289,7 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
  
 ---
 <a name="6"></a>
-## 6: R functions and R packages from CRAN and BioConductor
+## 6: Why, when and how of writing your own R functions
 
 **Topics:** 
 The why, when and how of writing your own R functions with worked examples. Further extending functionality and utility with R packages. Obtaining R packages from CRAN and Bioconductor. Working with Bio3D for molecular data. Managing genome-scale data with Bioconductor.
@@ -370,35 +370,32 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - DataCamp: [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
-<!--
+
 ---
 <a name="8"></a>
-## 8: Unsupervised Learning Mini-Project
+## 8: Unsupervised learning mini-project
 
 **Topics:** Hands-on project session with unsupervised learning analysis of cancer cells. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
 **Goals:**
 - Be able to import and prepare data for unsupervised learning analysis.
-- Be able to apply and test combinations of PCA, k-means and hierarchical clustering to high dimensional datasets and critically review results.
+- Be able to apply and test combinations of PCA, k-means, and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Hands-on Lab:**
-- Lab Mini-Project: [Unsupervised learning analysis of breast cancer cells]({{ site.baseurl }}/class-material/wk7_miniproject.html){:.no-push-state}{:target="_blank"},  
-- Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/WisconsinCancer.csv){:.no-push-state}, [new_samples.csv]({{ site.baseurl }}/class-material/new_samples.csv){:.no-push-state}.
+<!-- - Lab Mini-Project: [Unsupervised learning analysis of breast cancer cells]({{ site.baseurl }}/class-material/wk7_miniproject.html){:.no-push-state}{:target="_blank"}  -->
+> Feedback: [Muddy point assessment](https://forms.gle/j9qhXUNoqBWfyCzPA){:.no-push-state} 
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
-     
-- Feedback: [Muddy point assessment](https://goo.gl/forms/1dkWdpJ4BNgtGHsR2){:.no-push-state}.   
-
-- Bonus: [Kevin’s StackExchange Link on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}.   
-
+**Supporting material:**  
+- Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/class8/WisconsinCancer.csv){:.no-push-state} / [new_samples.csv]({{ site.baseurl }}/class-material/class8/new_samples.csv){:.no-push-state}
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class8/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class8/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 
 **Homework**:   
-- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
-- DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs).   
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
  
-
+<!--
 ---
 <a name="9"></a> 
 
