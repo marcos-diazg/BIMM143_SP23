@@ -25,7 +25,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 9 | Wed 05/03/23  | [**Structural bioinformatics**](#9) <br> Protein structure function relationships. Protein structure and visualization resources. Modeling energy as a function of structure. Homology modeling. AlphaFold. Predicting functional dynamics. Inferring protein function from structure.                                                                                                                                                                                                                                             |
 | 10| Fri 05/05/23 | [**Halloween candy mini-project**](#10) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy. Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                              |
 | 11| Wed 05/10/23 | [**Genome informatics and high throughput sequencing**](#11) <br> Searching genes and gene functions. Genome databases. Variation in the genome. High-throughput sequencing technologies, biological applications, and bioinformatics analysis methods. The Galaxy platform along with resources from the EBI & UCSC.                                                                                                                                                                              |
-| 12  | Fri 05/12/23 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#12) <br> RNA-Seq aligners. Differential expression tests. RNA-Seq statistics. Counts, FPKMs, and avoiding P-value misuse. Hands-on analysis of RNA-Seq data with R. Gene functional annotation. Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
+| 12  | Fri 05/12/23 | [**Transcriptomics and the analysis of RNA-Seq data**](#12) <br> RNA-Seq aligners. Differential expression tests. RNA-Seq statistics. Counts, FPKMs, and avoiding P-value misuse. Hands-on analysis of RNA-Seq data with R. Gene functional annotation. Functional databases KEGG, InterPro, GO ontologies, and functional enrichment.                                                                                                                                                                                                                                               |
 | 13  |  Wed 05/17/23 | [**RNA-Seq mini-project**](#13) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
 | 14  | Fri 05/19/23  | [**Hands-on with Git and GitHub**](#14) <br> Why you should use a version control system. How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                         |
 | 15  | Wed 05/24/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams, and pipes. Workflows for batch processing. Launching and using AWS EC2 instances (or Virtual Machines).                                                                                                                                                                                                                                              |
@@ -481,11 +481,11 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Homework**:
-- **Population analysis**: Submit to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"} your RMarkdown/Quarto generated PDF with working code, output and narrative text answering Q13 and Q14 in this week's [Hands-on section worksheet]({{ site.baseurl }}/class-material/class11/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}
+- Submit your RMarkdown/Quarto generated PDF lab report answering questions **Q1 to Q12** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
+**[OPTIONAL] Extra Credit:**
+- **Population analysis**: Submit to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"} your RMarkdown/Quarto generated PDF with working code, output and narrative text answering **Q13 and Q14** in this week's [hands-on section worksheet]({{ site.baseurl }}/class-material/class11/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}
 
-
-<!--
 
 
 ---
@@ -493,42 +493,42 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 ## 12: Transcriptomics and the analysis of RNA-Seq data
 
 **Topics:** 
-Analysis of RNA-Seq data with R, Differential expression tests, RNA-Seq statistics, Counts and FPKMs, Normalizing for sequencing depth, DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.  
+Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statistics. Counts and FPKMs. Normalizing for sequencing depth. DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data. Functional databases KEGG, InterPro, GO ontologies, and functional enrichment.  
 
 
 **Goals:**  
 - Given an RNA-Seq dataset, find the set of significantly differentially expressed genes and their annotations.  
-- Gain competency with data import, processing and analysis with DESeq2 and other bioconductor packages.  
+- Gain competency with data import, processing and analysis with DESeq2 and other Bioconductor packages.  
 - Understand the structure of count data and metadata required for running analysis.  
 - Be able to extract, explore, visualize and export results.  
 - Perform a GO analysis to identify the pathways relevant to a set of genes (e.g. identified by transcriptomic study or a proteomic experiment). Use both Bioconductor packages and online tools to interpret gene lists and annotate potential gene functions.
 
 **Videos:**
-- 12.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"},  
-- 12.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"},    
-- 12.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"}.  
-- Lab screencast - [Live video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.      
+- 12.1 - [Differential expression analysis of RNA-Seq data](http://youtu.be/vn5Fy2VVWBw){:.no-push-state}{:target="_blank"}
+- 12.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"}
+- 12.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"} 
 
+**Hands-on Lab**:
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class12/lab12_sp23.html){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/C2F2Q84T9d72ixfZ8){:.no-push-state}.  
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture14_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.
-- Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions.
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/Class15.html){:.no-push-state}{:target="_blank"},  
-- Lab: Live screencast [video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state} @ 10am Thur SD time.  
-- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/airway_scaledcounts.csv){:.no-push-state}, [airway_metadata.csv]({{ site.baseurl }}/class-material/airway_metadata.csv){:.no-push-state}.  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- [Muddy point assessment](https://goo.gl/forms/CjzYyzBT0VsuOvBt2){:.no-push-state}.  
-
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class12/lecture14_BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class12/lecture14_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/class12/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions
+- Screencast Lab: [video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state}
+- Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/class12/airway_scaledcounts.csv){:.no-push-state} / [airway_metadata.csv]({{ site.baseurl }}/class-material/class12/airway_metadata.csv){:.no-push-state}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Readings**:
- - Excellent review article: [Conesa et al. A survey of best practices for RNA-seq data analysis. _Genome Biology_ 17:13 (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}.
- - An oldey but a goodie: [Soneson et al. "Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences." _F1000Research_ 4 (2015)](https://f1000research.com/articles/4-1521/v2).
- - Good review article: Trapnell C, Hendrickson DG, Sauvageau M, Goff L et al. "*Differential analysis of gene regulation at transcript resolution with RNA-seq*". Nat Biotechnol 2013 Jan;31(1):46-53. [PMID: 23222703](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}.   
- - Abstract and introduction sections of: [Himes et al. "RNA-Seq transcriptome profiling identifies CRISPLD2 as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells." _PLoS ONE_ 9.6 (2014): e99625](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}.  
-
+ - Excellent review article: [Conesa _et al_. A survey of best practices for RNA-seq data analysis. _Genome Biology_ (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}
+ - An oldey but a goodie: [Soneson _et al_. Differential analyses for RNA-seq: transcript-level estimates improve gene-level inferences. _F1000Research_ (2015)](https://f1000research.com/articles/4-1521/v2)
+ - Good review article: [Trapnell _et al_. Differential analysis of gene regulation at transcript resolution with RNA-seq. _Nat Biotechnol_ (2013)](https://www.ncbi.nlm.nih.gov/pubmed/23222703){:.no-push-state}
+ - Abstract and introduction sections of: [Himes _et al_. RNA-Seq transcriptome profiling identifies _CRISPLD2_ as a glucocorticoid responsive gene that modulates cytokine function in airway smooth muscle cells. _PLoS ONE_ (2014)](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099625){:.no-push-state}
 
 **Homework:**
-- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
+- Submit your completed PDF lab report answering questions **Q1 to Q10** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+
+<!--
 
 
 --- 
