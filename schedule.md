@@ -447,13 +447,12 @@ A fun and topical mini-project with unsupervised learning analysis of halloween_
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
 
-<!--
 ---
 <a name="11"></a>
 ## 11: Genome informatics
 
 **Topics:** 
-Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome), Biological applications of sequencing, Variation in the genome, RNA-Sequencing for gene expression analysis; Major genomic databases, tools and visualization resources from the EBI & UCSC, The Galaxy platform for quality control and analysis; Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2.
+Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome). Biological applications of sequencing. Variation in the genome. RNA-Sequencing for gene expression analysis. Major genomic databases, tools, and visualization resources from the EBI & UCSC. The Galaxy platform for quality control and analysis. Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2.
 
 **Goals:**
 - Appreciate and describe in general terms the rapid advances in sequencing technologies and the new areas of investigation that these advances have made accessible.  
@@ -464,29 +463,29 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Understand the SAM/BAM file format and the information it holds.  
 
 **Videos:**  
-- 11.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 11.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 11.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 11.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+- 11.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"}
+- 11.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF)
+- 11.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"}
+- 11.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}
+
+**Hands-on Lab**:
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class11/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/buzVikzeQZvdvU4S8){:.no-push-state}{:target="_blank"}
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture13_BIMM143-small.pdf){:.no-push-state}{:target="_blank"},
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"} (as PDF form),
-- Lab: Live screencast [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} with section time-stamps. 
-- [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab.  
-- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/HG00109_1.fastq){:.no-push-state}, [HG00109_2.fastq]({{ site.baseurl }}/class-material/HG00109_2.fastq){:.no-push-state}, [genes.chr17.gtf]({{ site.baseurl }}/class-material/genes.chr17.gtf){:.no-push-state}, [Expression genotype results]({{ site.baseurl }}/class-material/rs8067378_ENSG00000172057.6.txt){:.no-push-state}.
-- [SAM/BAM file format description]({{ site.baseurl }}//class-material/sam_format/){:.no-push-state}{:target="_blank"}.  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class11/lecture13_BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class11/lecture13_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Screencast Lab: [video walk-through](https://youtu.be/jfAlMYAJNw8){:target="_blank"}{:.no-push-state} 
+- [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab
+- RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/class11/HG00109_1.fastq){:.no-push-state} / [HG00109_2.fastq]({{ site.baseurl }}/class-material/class11/HG00109_2.fastq){:.no-push-state} / [genes.chr17.gtf]({{ site.baseurl }}/class-material/class11/genes.chr17.gtf){:.no-push-state} / [Expression genotype results]({{ site.baseurl }}/class-material/class11/rs8067378_ENSG00000172057.6.txt){:.no-push-state}
+- [SAM/BAM file format description]({{ site.baseurl }}//class-material/class11/sam_format/){:.no-push-state}{:target="_blank"}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
-- Feedback: [Muddy point assessment](https://forms.gle/Qx4UTSc4zkpafRvq9){:.no-push-state}{:target="_blank"}.  
-
-
-
-**Homework**:   
-- **Population analysis**: Submit to GradeScope your RMarkdown/Quarto generated PDF with working code, output and narrative text answering Q13 and Q14 in this weeks [Hands-on section worksheet]({{ site.baseurl }}/class-material/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}.  
+**Homework**:
+- **Population analysis**: Submit to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"} your RMarkdown/Quarto generated PDF with working code, output and narrative text answering Q13 and Q14 in this week's [Hands-on section worksheet]({{ site.baseurl }}/class-material/class11/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}
 
 
 
+<!--
 
 
 ---
