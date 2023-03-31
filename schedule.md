@@ -382,7 +382,7 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - Be able to apply and test combinations of PCA, k-means, and hierarchical clustering to high dimensional datasets and critically review results.
 
 **Hands-on Lab:**
-<!-- - Lab Mini-Project: [Unsupervised learning analysis of breast cancer cells]({{ site.baseurl }}/class-material/wk7_miniproject.html){:.no-push-state}{:target="_blank"}  -->
+- Lab Mini-Project: [Unsupervised learning analysis of breast cancer cells]({{ site.baseurl }}/class-material/class8/lab08_sp23.html){:.no-push-state}{:target="_blank"} 
 > Feedback: [Muddy point assessment](https://forms.gle/j9qhXUNoqBWfyCzPA){:.no-push-state} 
 
 **Supporting material:**  
