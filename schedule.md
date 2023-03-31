@@ -22,7 +22,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 6  | Fri 04/21/23 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication, and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor. Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
 | 7  | Wed 04/26/23 | [**Introduction to machine learning for Bioinformatics**](#7) <br> Unsupervised learning. K-means clustering. Hierarchical clustering. Heatmap representations. Dimensionality reduction. Principal Component Analysis (PCA).                                                                                                                                                                                                                                            |
 | 8  | Fri 04/28/23 | [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.                                                                                                                                                                                                            |
-| 9 | Wed 05/03/23  | [**Structural Bioinformatics**](#9) <br> Comparative structure and sequence analysis. The importance of Multiple Sequence Alignments (MSAs). Structure prediction with AlphaFold and the new age of structural biology. Working with sequence and structure data in R. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                             |
+| 9 | Wed 05/03/23  | [**Structural Bioinformatics**](#9) <br> Protein structure function relationships. Protein structure and visualization resources. Modeling energy as a function of structure. Homology modeling. AlphaFold. Predicting functional dynamics. Inferring protein function from structure.                                                                                                                                                                                                                                             |
 | 10| Fri 05/05/23 | [**Halloween Candy Mini-Project**](#10) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy. Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                              |
 | 11| Wed 05/10/23 | [**Genome informatics and high throughput sequencing**](#11) <br> Searching genes and gene functions. Genome databases. Variation in the genome. High-throughput sequencing technologies, biological applications, and bioinformatics analysis methods. The Galaxy platform along with resources from the EBI & UCSC.                                                                                                                                                                              |
 | 12  | Fri 05/12/23 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#12) <br> RNA-Seq aligners. Differential expression tests. RNA-Seq statistics. Counts, FPKMs, and avoiding P-value misuse. Hands-on analysis of RNA-Seq data with R. Gene functional annotation. Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
@@ -394,44 +394,45 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
- 
-<!--
+
 ---
 <a name="9"></a> 
+## 9: Structural Bioinformatics
 
-## 9: Structural Bioinformatics (Focus on new AlphaFold2)      
-**Topics**: Protein structure function relationships, Protein structure and visualization resources, Modeling energy as a function of structure, Homology modeling, AlphaFold, Predicting functional dynamics, Inferring protein function from structure.
+**Topics:** Protein structure function relationships. Protein structure and visualization resources. Modeling energy as a function of structure. Homology modeling. AlphaFold. Predicting functional dynamics. Inferring protein function from structure.
 
-**Goal**: 
-- View and interpret the structural models in the PDB,  
-- Understand the classic `Sequence>Structure>Function` via energetics and dynamics paradigm,  
-- Be able to use VMD for biomolecular visualization and analysis,  
-- Appreciate how AlphaFold has advanced structural bioinformatics,  
+**Goals:**
+- View and interpret the structural models in the PDB.
+- Understand the classic `Sequence > Structure > Function` via energetics and dynamics paradigm.
+- Be able to use VMD for biomolecular visualization and analysis.
+- Appreciate how AlphaFold has advanced structural bioinformatics.
 - Be able to use the Bio3D package for exploratory analysis of protein  sequence-structure-function-dynamics relationships.    
 
 **Videos:**  
-- 9.1 - [Introduction to structural bioinformatics](https://www.youtube.com/watch?v=lLLXkdTl8aQ){:.no-push-state}{:target="_blank"},
-- 9.2 - [Visualization, interpretation and modeling of protein structure](https://www.youtube.com/watch?v=8GO9kUOPfMQ){:.no-push-state}{:target="_blank"},
+- 9.1 - [Introduction to structural bioinformatics](https://www.youtube.com/watch?v=lLLXkdTl8aQ){:.no-push-state}{:target="_blank"}
+- 9.2 - [Visualization, interpretation and modeling of protein structure](https://www.youtube.com/watch?v=8GO9kUOPfMQ){:.no-push-state}{:target="_blank"}
+- 9.3 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"}
 
-- 9.3 - [The story of AlphaFold](https://www.youtube.com/watch?v=gg7WjuFs8F4){:.no-push-state}{:target="_blank"},  
-
-
-
-**Material**:  
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture11-BIMM143-small.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on structural bioinformatics analysis (pt. 1)]({{ site.baseurl }}/class-material/pdb_pca_labclass.html){:.no-push-state}{:target="_blank"},  
-
-- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"},  [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"}, 
-- Alternate Windows install and setup cmd: `curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
-- Alternative Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
-- Alternative M1 Mac install and setup cmd: `sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/m1/muscle"; sudo chmod +x /usr/local/bin/muscle`  
-- Feedback: [Muddy point assessment](https://forms.gle/3eDPRMCZt23rGNaH8){:.no-push-state}.   
+**Hands-on Lab:**
+- Lab: [Hands-on section]({{ site.baseurl }}/class-material/class9/pdb_pca_labclass.html){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/9c5JogJrcor5s1qH7){:.no-push-state}
 
 
-**Homework**:   
-- Questions.  
+**Supporting material:**  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class9/lecture11-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class9/lecture11-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Software links: [VMD download](http://www.ks.uiuc.edu/Development/Download/download.cgi){:.no-push-state}{:target="_blank"}
+
+<!-- / [MUSCLE download](https://www.drive5.com/muscle/downloads.htm){:.no-push-state}{:target="_blank"} -->
+<!-- - Alternate Windows install and setup cmd:<br>`curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
+- Alternative Mac install and setup cmd:<br>`sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
+- Alternative M1 Mac install and setup cmd:<br>`sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/m1/muscle"; sudo chmod +x /usr/local/bin/muscle`   -->
 
 
+**Homework:**
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+
+
+<!--
 ---
 <a name="10"></a>
 ## 10: Halloween Candy Mini-Project
