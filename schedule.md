@@ -27,8 +27,8 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 11| Wed 05/10/23 | [**Genome informatics and high throughput sequencing**](#11) <br> Searching genes and gene functions. Genome databases. Variation in the genome. High-throughput sequencing technologies, biological applications, and bioinformatics analysis methods. The Galaxy platform along with resources from the EBI & UCSC.                                                                                                                                                                              |
 | 12  | Fri 05/12/23 | [**Transcriptomics and the analysis of RNA-Seq data**](#12) <br> RNA-Seq aligners. Differential expression tests. RNA-Seq statistics. Counts, FPKMs, and avoiding P-value misuse. Hands-on analysis of RNA-Seq data with R. Gene functional annotation. Functional databases KEGG, InterPro, GO ontologies, and functional enrichment.                                                                                                                                                                                                                                               |
 | 13  |  Wed 05/17/23 | [**RNA-Seq mini-project**](#13) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 14  | Fri 05/19/23  | [**Hands-on with Git and GitHub**](#14) <br> Why you should use a version control system. How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                         |
-| 15  | Wed 05/24/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams, and pipes. Workflows for batch processing. Launching and using AWS EC2 instances (or Virtual Machines).                                                                                                                                                                                                                                              |
+| 14  | Fri 05/19/23  | [**Hands-on with Git and GitHub**](#14) <br> Why you should use a version control system. How to perform common operations with Git. Creating and working with your own GitHub repos and navigating and using those of others.                                                                                                                         |
+| 15  | Wed 05/24/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams, and pipes. Workflows for batch processing. Launching and using AWS EC2 instances (or virtual machines).                                                                                                                                                                                                                                              |
 | 16  | Fri 05/26/23  | [**Analyzing sequencing data in the cloud**](#16) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                                      |
 | 17  | Wed 05/31/23  | [**Vaccination rate mini-project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
 | 18  | Fri 06/02/23  | [**Mutational signatures of cancer mini-project**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures.                                                                                                                   |
@@ -49,7 +49,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 **Topics:**  
 Course introduction. Learning goals & expectations. Meet the instructional team. Seting up your computer with required software.
 
-**Goals:**
+**Goals:**  
 - Understand course scope, expectations, logistics and ethics code.
 - Complete the pre-course questionnaire.
 - Setup your computer for this course.
@@ -74,7 +74,7 @@ Course introduction. Learning goals & expectations. Meet the instructional team.
 <a name="1"></a>
 ## 1: Welcome to bioinformatics
 
-**Topics:**
+**Topics:**  
 Biology is an information science. History of Bioinformatics. Types of data. Application areas and introduction to upcoming course segments. Introduction to NCBI & EBI resources for the molecular domain of bioinformatics. Hands-on session using NCBI-BLAST, Entrez, GENE, UniProt, Muscle, and PDB bioinformatics tools and databases.
 
 **Goals:**
@@ -93,13 +93,13 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class1/lab1_sp23.pdf){:target="_blank"}{:.no-push-state}
 > Feedback: [Muddy Point Assessment](https://forms.gle/L2Lpzm4aWUvwvA7n8){:.no-push-state}{:target="_blank"}
 
-**Supporting Material**
+**Supporting Material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}  
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/class1/Major_Databases_BIMM143.pdf){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [Video walk-through](https://youtu.be/ps0BkDZaiwo){:target="_blank"}{:.no-push-state}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
-**Homework**:  
+**Homework:**  
 - [Quiz](https://forms.gle/iEBpDJz4qpiNsUit9){:.no-push-state}{:target="_blank"},  
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - Readings: 
@@ -111,7 +111,7 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 <a name="2"></a>
 ## 2: Sequence alignment fundamentals, algorithms and applications
 
-**Topics:**
+**Topics:**  
 Sequence Alignment and Database Searching: Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
 
 **Goals:**
@@ -180,7 +180,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
 **Topics**:  
 Detecting remote sequence similarity. Substitution matrices. Database searching beyond BLAST with PSI-BLAST. Profiles and HMMs. Protein structure comparisons. Beginning with command line based database searches.
 
-**Goals**:  
+**Goals:**
 - Be able to calculate the alignment score between protein (or nucleotide) sequences using a provided scoring matrix such as BLOSUM62.  
 - Understand the limits of homology detection with tools such as BLAST.  
 - Know how to derive a PROSITE style regular expression for aligned motifs.  
@@ -188,7 +188,7 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 - Be able to perform PSI-BLAST, HMMER and protein structure based database searches and interpret the results in terms of the biological significance of an e-value.  
 - Be familiar with the concepts of True Positives, False Positives, Sensitivity and Specificity.  
 
-**Hands-on Lab**:   
+**Hands-on Lab:**   
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class3/lab3_sp23.pdf){:.no-push-state}{:target="_blank"}
 > Feedback: [Muddy Point Assessment](https://forms.gle/NFriqivMdgNUzMD96){:.no-push-state}{:target="_blank"}
 
@@ -196,7 +196,7 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class3/lecture3-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class3/lecture3-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 - Bonus: [Alignment App](https://marcos-diazg.github.io/BIMM143_SP23/class-material/class3/nw/){:.no-push-state}{:target="_blank"}
 
-**Homework**:   
+**Homework:**   
 - [Questions](https://docs.google.com/document/d/1ruSvmoUzmOX77t81LdIPy7xjxav0OcPWRHHCKslspGg/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions
 - Submit your completed lab report (i.e. filled in PDF form) answering questions **Q1 to Q7** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - **DataCamp**: Sign-up to our [**BIMM143_DiazGay** group/organization](https://app.datacamp.com/groups/bimm143_diazgay/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
@@ -209,7 +209,7 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 ## 4: Bioinformatics data analysis with R
 
 
-**Topics:**
+**Topics:**  
 Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major R data structures and functions. Using R interactively from the RStudio console.
 
 **Goals:**
@@ -250,7 +250,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major
 <a name="5"></a>
 ## 5: Data exploration and visualization in R
 
-**Topics:** 
+**Topics:**  
 The exploratory data analysis mindset. Data visualization best practices. Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots, and heatmaps). Building more complex charts with ggplot.
 
 
@@ -280,7 +280,7 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 - Check-out the [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} website and the [ggplot cheat sheat](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf){:.no-push-state}{:target="_blank"}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
  
-**Homework**:   
+**Homework:**   
 - [Quiz](https://forms.gle/aDujhaRG3rtHUEoJ8){:.no-push-state}{:target="_blank"} 
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - DataCamp: [Introduction to data visualization with ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} (~4hrs)   
@@ -291,7 +291,7 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 <a name="6"></a>
 ## 6: Why, when and how of writing your own R functions
 
-**Topics:** 
+**Topics:**  
 The why, when and how of writing your own R functions with worked examples. Further extending functionality and utility with R packages. Obtaining R packages from CRAN and Bioconductor. Working with Bio3D for molecular data. Managing genome-scale data with Bioconductor.
 
 **Goals:**
@@ -318,11 +318,11 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
  
-**Homework**:   
+**Homework:**   
 - [Quiz](https://forms.gle/7THKTrvjA2ChJrX58){:.no-push-state}{:target="_blank"}
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - **Write a function**: See **Q6** of the [hands-on lab supplement above]({{ site.baseurl }}/class-material/class6/lecture6-BIMM143_F20.pdf){:.no-push-state}{:target="_blank"}. This entails turning a supplied code snippet into a more robust and re-usable function that will take any of the three listed input proteins and plot the effect of drug binding. Note assessment rubric and submission instructions within document
-- **DataCamp**: Please complete the [Introduction to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} course
+- DataCamp: Please **complete** the [Introduction to ggplot2](https://learn.datacamp.com/courses/introduction-to-data-visualization-with-ggplot2){:.no-push-state}{:target="_blank"} course
 
 
 **Other**:  
@@ -334,7 +334,7 @@ The why, when and how of writing your own R functions with worked examples. Furt
 <a name="7"></a>
 ## 7: Introduction to machine learning for bioinformatics
 
-**Topics:** 
+**Topics:**  
 Unsupervised learning, supervised learning, and reinforcement learning. Focus on unsupervised learning. K-means clustering. Hierarchical clustering. Dimensionality reduction, visualization, and analysis. Principal Component Analysis (PCA). Practical considerations and best practices for the analysis of high dimensional datasets.
 
 
@@ -365,7 +365,7 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}  
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
-**Homework**:   
+**Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - DataCamp: [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
@@ -375,7 +375,8 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 <a name="8"></a>
 ## 8: Unsupervised learning mini-project
 
-**Topics:** Hands-on project session with unsupervised learning analysis of cancer cells. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
+**Topics:**  
+Hands-on project session with unsupervised learning analysis of cancer cells. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
 **Goals:**
 - Be able to import and prepare data for unsupervised learning analysis.
@@ -389,9 +390,9 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - Data file: [WisconsinCancer.csv]({{ site.baseurl }}/class-material/class8/WisconsinCancer.csv){:.no-push-state} / [new_samples.csv]({{ site.baseurl }}/class-material/class8/new_samples.csv){:.no-push-state}
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class8/lecture09-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class8/lecture09-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 
-**Homework**:   
+**Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
-- DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
+- DataCamp: **Complete** [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
 
@@ -399,7 +400,8 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 <a name="9"></a> 
 ## 9: Structural bioinformatics
 
-**Topics:** Protein structure function relationships. Protein structure and visualization resources. Modeling energy as a function of structure. Homology modeling. AlphaFold. Predicting functional dynamics. Inferring protein function from structure.
+**Topics:**  
+Protein structure function relationships. Protein structure and visualization resources. Modeling energy as a function of structure. Homology modeling. AlphaFold. Predicting functional dynamics. Inferring protein function from structure.
 
 **Goals:**
 - View and interpret the structural models in the PDB.
@@ -437,7 +439,7 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 <a name="10"></a>
 ## 10: Halloween candy mini-project
 
-**Topics:** 
+**Topics:**  
 A fun and topical mini-project with unsupervised learning analysis of halloween_candy. Practical considerations and best practices for the analysis and visualization of high dimensional datasets.
 
 **Hands-on Lab:**
@@ -451,7 +453,7 @@ A fun and topical mini-project with unsupervised learning analysis of halloween_
 <a name="11"></a>
 ## 11: Genome informatics
 
-**Topics:** 
+**Topics:**  
 Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio, Illumina, toward the $500 human genome). Biological applications of sequencing. Variation in the genome. RNA-Sequencing for gene expression analysis. Major genomic databases, tools, and visualization resources from the EBI & UCSC. The Galaxy platform for quality control and analysis. Sample Galaxy RNA-Seq workflow with FastQC and Bowtie2.
 
 **Goals:**
@@ -468,7 +470,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - 11.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"}
 - 11.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}
 
-**Hands-on Lab**:
+**Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class11/wk8_genomics_lab.pdf){:.no-push-state}{:target="_blank"}
 > Feedback: [Muddy point assessment](https://forms.gle/buzVikzeQZvdvU4S8){:.no-push-state}{:target="_blank"}
 
@@ -480,7 +482,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/class11/sam_format/){:.no-push-state}{:target="_blank"}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
-**Homework**:
+**Homework:**
 - Submit your RMarkdown/Quarto generated PDF lab report answering questions **Q1 to Q12** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
 **[OPTIONAL] Extra Credit:**
@@ -492,7 +494,7 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 <a name="12"></a>
 ## 12: Transcriptomics and the analysis of RNA-Seq data
 
-**Topics:** 
+**Topics:**  
 Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statistics. Counts and FPKMs. Normalizing for sequencing depth. DESeq2 analysis. Gene finding and functional annotation from high throughput sequencing data. Functional databases KEGG, InterPro, GO ontologies, and functional enrichment.  
 
 
@@ -508,9 +510,9 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 - 12.2 - [Differential expression tests and pathway analysis](http://youtu.be/EIMK4TSnQLE){:.no-push-state}{:target="_blank"}
 - 12.3 - [Installing Bioconductor and DESeq2](http://youtu.be/aekKXg0U1Rg){:.no-push-state}{:target="_blank"} 
 
-**Hands-on Lab**:
+**Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class12/lab12_sp23.html){:.no-push-state}{:target="_blank"}
-> Feedback: [Muddy point assessment](https://forms.gle/C2F2Q84T9d72ixfZ8){:.no-push-state}.  
+> Feedback: [Muddy point assessment](https://forms.gle/C2F2Q84T9d72ixfZ8){:.no-push-state}
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class12/lecture14_BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class12/lecture14_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
@@ -534,81 +536,84 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 <a name="13"></a>
 ## 13: RNA-Seq analysis mini-project
 
-**Topics:** 
+**Topics:**  
 Differential expression analysis mini-project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.  
 
-**Hands-on Lab**:
+**Hands-on Lab:**
 - Lab: [Mini-project]({{ site.baseurl }}/class-material/class13/lab13_sp23.html){:.no-push-state}{:target="_blank"}
+> Feeback [Muddy point assessment](https://forms.gle/dRLYpQYLQfzZfdWo8){:.no-push-state}
 
 **Supporting material:**
 - Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/class13/GSE37704_featurecounts.csv){:.no-push-state} / [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/class13/GSE37704_metadata.csv){:.no-push-state}
 
-**Homework**:
+**Homework:**
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} (~4hrs)
 
-<!--
+
 ---
 <a name="14"></a>
 ## 14: Hands-on with Git and GitHub
 
-**Topics:** 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover syncing your bioinformatics work to date to GitHub.     
+**Topics:**  
+Why you should use a version control system. How to perform common operations with Git, currently the most popular version control system. Creating and working with your own GitHub repos and navigating and using those of others. Syncing bioinformatics work to GitHub.     
 
 **Videos:**  
-- 14.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+- 14.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}
+
+**Hands-on Lab:**
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class14/github_lab.html){:.no-push-state}{:target="_blank"}
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/slide_class16.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on with Git and GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class14/slide_class16.pdf){:.no-push-state}{:target="_blank"}
 
-
-**Homework**:   
-Submit yoour GitHub class repository URL on GradeScope.  
+**Homework:**   
+- Submit your GitHub class repository URL to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: **Complete** [Intermediate R](https://app.datacamp.com/learn/courses/intermediate-r){:.no-push-state}{:target="_blank"} (~4hrs)
 
 
 ---
 <a name="15"></a>
 ## 15: Essential UNIX for bioinformatics
 
-**Topics:** 
-Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX philosophy, 21 Key commands, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Organizing computational projects,  Going further with your own computer in the cloud, Launching and using AWS EC2 instances (A.K.A. Virtual Machines). 
+**Topics:**  
+Bioinformatics on the command line. Why do we use UNIX for bioinformatics? UNIX philosophy. 21 Key commands. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams and pipes. Workflows for batch processing. Organizing computational projects. Going further with your own computer in the cloud. Launching and using AWS EC2 instances (or virtual machines). 
 
 
 **Goals:**  
-- Understand why we use UNIX for bioinformatics  
-- Use UNIX command-line tools for file system navigation and text file manipulation.  
-- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.  
-- Be able to connect to remote servers from the command line.  
-- Use existing programs at the UNIX command line to analyze bioinformatics data.  
-- Understand IO Redirection, Streams and pipes.  
-- Understand best practices for organizing computational projects.  
+- Understand why we use UNIX for bioinformatics.
+- Use UNIX command-line tools for file system navigation and text file manipulation.
+- Have a familiarity with 21 key UNIX commands that we will use ~90% of the time.
+- Be able to connect to remote servers from the command line.
+- Use existing programs at the UNIX command line to analyze bioinformatics data.
+- Understand IO redirection, streams and pipes.
+- Understand best practices for organizing computational projects.
 
 **Videos:**
-- 15.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"},  
-- 15.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"},  
+- 15.1 - [Essential UNIX for bioinformatics I](http://youtu.be/qsDzjQm_Wp0){:.no-push-state}{:target="_blank"}
+- 15.2 - [Essential UNIX for bioinformatics II](http://youtu.be/11t1GuZB77M){:.no-push-state}{:target="_blank"}
 - 15.3 - [Manipulating files on UNIX machines](http://youtu.be/_jVgj6UutwA){:.no-push-state}{:target="_blank"}
-- 15.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}.            
+- 15.4 - [UNIX superpowers: using pipes and conecting to remote machines](http://youtu.be/AKLha-_IurU){:.no-push-state}{:target="_blank"}
 
+**Hands-on Lab:**
+- Hands-on section worksheet
+  * (Part I) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/class15/aws_01.html){:.no-push-state}{:target="_blank"}
+  * (Part II) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/class15/aws_02.html){:.no-push-state}{:target="_blank"}
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy point assessment](https://forms.gle/cp2wBCHY7RC97QQz6){:.no-push-state}
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture16_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}.
-- Lab screencast [Launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"},  
-- Hands-on section worksheet
-  * (Part I) [Starting your own computer in the cloud]({{ site.baseurl }}/class-material/aws_01.html){:.no-push-state}{:target="_blank"},
-  * (Part II) [Accessing and using your AWS instance]({{ site.baseurl }}/class-material/aws_02/){:.no-push-state}{:target="_blank"},  
-- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
-- [Muddy point assessment](https://goo.gl/forms/W2G06LVrn2pADB2q1){:.no-push-state}.  
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class15/lecture16_BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class15/lecture16_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
+- Screencast Lab: [launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"}
+- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+
+**Homework:**   
+- [Questions]({{ site.baseurl }}/class-material/class15/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"}: complete PDF form with your answers, save, and submit to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- _No lab report due this week_
+- Bonus: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs)
  
 
-
-
-**Homework**:   
-- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"}  complete PDF form with your answers, save, and submit to GradeScope under *15. HW Class15 (Unix Basics)*,  
-- No lab report due this week,  
-- DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
- 
-
+<!--
 
 
 ---
@@ -649,7 +654,7 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 - Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
 
 
-**Homework**:   
+**Homework:**   
 -  Generate a complete lab report with all sections and question responses for submission to gradescope.  
 - There are no homework quiz questions this week.
 
