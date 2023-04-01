@@ -528,7 +528,6 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 **Homework:**
 - Submit your completed PDF lab report answering questions **Q1 to Q10** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
-<!--
 
 
 --- 
@@ -536,12 +535,18 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 ## 13: RNA-Seq analysis mini-project
 
 **Topics:** 
-Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.  
+Differential expression analysis mini-project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.  
 
-- Lab: [DESeq2 analysis mini-project]({{ site.baseurl }}/class-material/lab-15-bimm143.html){:.no-push-state}{:target="_blank"} Submit your work to gradescope,  
-- Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/GSE37704_featurecounts.csv){:.no-push-state}, [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/GSE37704_metadata.csv){:.no-push-state}.   
+**Hands-on Lab**:
+- Lab: [Mini-project]({{ site.baseurl }}/class-material/class13/lab13_sp23.html){:.no-push-state}{:target="_blank"}
 
+**Supporting material:**
+- Data files: [GSE37704_featurecounts.csv]({{ site.baseurl }}/class-material/class13/GSE37704_featurecounts.csv){:.no-push-state} / [GSE37704_metadata.csv]({{ site.baseurl }}/class-material/class13/GSE37704_metadata.csv){:.no-push-state}
 
+**Homework**:
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+
+<!--
 ---
 <a name="14"></a>
 ## 14: Hands-on with Git and GitHub
