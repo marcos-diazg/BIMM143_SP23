@@ -1,9 +1,9 @@
 ---
+title: "R Language Basics"
 layout: page
-title: R Language Basics
 ---
 
-**Class 4 Lab:**<br>Marcos Díaz Gay 
+**Class 4 Lab:**<br>Barry J. Grant  /  Marcos Díaz-Gay 
 {:.message}
 
 ### 1. Background

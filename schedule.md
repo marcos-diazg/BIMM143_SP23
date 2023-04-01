@@ -84,12 +84,12 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 - The goals of the hands-on session is to introduce a range of core bioinformatics databases and associated online services while actively investigating the molecular basis of several common human diseases.  
 
 
-**Video Lectures**
+**Videos:**
 - 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/FNXMFXZR6HU){:.no-push-state}{:target="_blank"},  
 - 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"},  
 - 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}.    
 
-**Hands-on Lab**
+**Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class1/lab1_sp23.pdf){:target="_blank"}{:.no-push-state}
 > Feedback: [Muddy Point Assessment](https://forms.gle/L2Lpzm4aWUvwvA7n8){:.no-push-state}{:target="_blank"}
 
@@ -127,7 +127,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - 2.3 - [Dynamic programing, global alignment](https://youtu.be/LkwgI2mHbik){:.no-push-state}{:target="_blank"}
 - 2.4 - [Dynamic programing, local alignment and BLAST basics](https://youtu.be/uhD77hnxM2g){:.no-push-state}{:target="_blank"}
 
-**Hands-on Lab**
+**Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class2/lab2_sp23.pdf){:target="_blank"}{:.no-push-state}
 > Feedback: [Muddy Point Assessment](https://forms.gle/JwKrRCmdcYFjsmP4A){:.no-push-state}{:target="_blank"}
 
@@ -137,14 +137,14 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Screencast Lab: [Video walk-through](https://youtu.be/U4u8jJqA2PI){:target="_blank"}{:.no-push-state}
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
 
-**Homework**:   
+**Homework:**   
 - [Quiz](https://forms.gle/MgQbfcN3K1tAVs8L8){:.no-push-state}{:target="_blank"}
-- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- Submit your completed lab report (i.e. filled in PDF form) answering questions **Q1 to Q6** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/class2/wk2_homework.pdf){:.no-push-state}{:target="_blank"} and submit it to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - For next week please [install R and RStudio]({{ site.baseurl }}/setup/){:.no-push-state}{:target="_blank"}
 - DataCamp: Sign-up to our **BIMM143_DiazGay group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} 
 
-**Readings**:    
+**Readings:**   
 - Readings: PDF1: [What is dynamic programming?]({{ site.baseurl }}/class-material/class2/Dynamic_programming_primer.pdf){:.no-push-state}
 - Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/class2/Fundamentals.pdf){:.no-push-state}
 
@@ -198,7 +198,7 @@ Detecting remote sequence similarity. Substitution matrices. Database searching 
 
 **Homework**:   
 - [Questions](https://docs.google.com/document/d/1ruSvmoUzmOX77t81LdIPy7xjxav0OcPWRHHCKslspGg/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions
-- Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- Submit your completed lab report (i.e. filled in PDF form) answering questions **Q1 to Q7** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - **DataCamp**: Sign-up to our [**BIMM143_DiazGay** group/organization](https://app.datacamp.com/groups/bimm143_diazgay/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/)
 
