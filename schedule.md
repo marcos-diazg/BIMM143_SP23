@@ -30,7 +30,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 14  | Fri 05/19/23  | [**Hands-on with Git and GitHub**](#14) <br> Why you should use a version control system. How to perform common operations with Git. Creating and working with your own GitHub repos and navigating and using those of others.                                                                                                                         |
 | 15  | Wed 05/24/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams, and pipes. Workflows for batch processing. Launching and using AWS EC2 instances (or virtual machines).                                                                                                                                                                                                                                              |
 | 16  | Fri 05/26/23  | [**Analyzing sequencing data in the cloud mini-project**](#16) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                                      |
-| 17  | Wed 05/31/23  | [**Vaccination rate mini-project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
+| 17  | Wed 05/31/23  | [**Vaccination rate mini-project**](#17) <br> A topical mini-project using ggplot and dplyr with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
 | 18  | Fri 06/02/23  | [**Mutational signatures of cancer mini-project**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures.                                                                                                                   |
 | 19  | Wed 06/07/23  | [**Investigating pertussis resurgence mini-project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs, and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination. <br>**Project: Find a gene assignment due\!**                                                                                                                                   |
 | 20 | Fri 06/09/23 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. <br>Livestream interview with leading bioinformatics and genomics scientists from industry. <br>                                                                                                                                                                                                               |
@@ -540,7 +540,7 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 Differential expression analysis mini-project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.  
 
 **Hands-on Lab:**
-- Lab: [Mini-project]({{ site.baseurl }}/class-material/class13/lab13_sp23.html){:.no-push-state}{:target="_blank"}
+- Lab: [Mini-Project]({{ site.baseurl }}/class-material/class13/lab13_sp23.html){:.no-push-state}{:target="_blank"}
 > Feeback [Muddy point assessment](https://forms.gle/dRLYpQYLQfzZfdWo8){:.no-push-state}
 
 **Supporting material:**
@@ -630,20 +630,26 @@ A mini-project using AWS EC2 cloud computing resources to query, download, decom
 **Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
-<!--
+
 
 ---
 <a name="17"></a>
-## 17: Vaccination rate mini project
+## 17: Vaccination rate mini-project
 
-**Topics:** 
-A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for exploratory data analysis.  
+**Topics:**  
+A topical mini-project using ggplot and dplyr with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for exploratory data analysis.
 
-- Lab: [COVID-19 vaccination rates mini-project]({{ site.baseurl }}/class-material/vaccines.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
-- Data files: [Statewide COVID-19 Vaccines Administered by ZIP Code](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}, 
+**Hands-on Lab:**
+- Lab: [Mini-Project]({{ site.baseurl }}/class-material/class17/lab17_sp23.html){:.no-push-state}{:target="_blank"}
 
+**Supporting material:**
+- Data files: [Statewide COVID-19 vaccines administered by ZIP code (updated: 2023/02/28)]({{ site.baseurl }}/class-material/class17/covid19vaccinesbyzipcode.csv){:.no-push-state}{:target="_blank"}
+- Original source of the COVID-19 vaccination data at the [California Open Data Portal](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}
 
+**Homework:**   
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
+<!--
 ---
 <a name="18"></a>
 ## 18: TBD.  
