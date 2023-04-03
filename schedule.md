@@ -567,6 +567,7 @@ Why you should use a version control system. How to perform common operations wi
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class14/slide_class16.pdf){:.no-push-state}{:target="_blank"}
+- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
 - Submit your GitHub class repository URL to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
@@ -650,15 +651,26 @@ A topical mini-project using ggplot and dplyr with the latest state wide COVID-1
 **Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
-<!--
+
 ---
 <a name="18"></a>
-## 18: TBD.  
+## 18: Mutational signatures of cancer mini-project  
 
-To be updated.   
+**Topics:**  
+A mini-project focusing on cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures.
 
- -->
+**Hands-on Lab:**
+- Lab: [Mini-Project]({{ site.baseurl }}/class-material/class18/lab18_sp23.html){:.no-push-state}{:target="_blank"}
 
+**Supporting material:**
+- Lecture Slides: 
+  * (Part I) [Large PDF]({{ site.baseurl }}/class-material/class18/class18.1_sp23.pdf){:.no-push-state}{:target="_blank"}
+  * (Part II) [Large PDF]({{ site.baseurl }}/class-material/class18/class18.2_sp23.pdf){:.no-push-state}{:target="_blank"}
+- The [cBioPortal](https://www.cbioportal.org/){:.no-push-state}{:target="_blank"} platform
+- Mutational matrices:
+  * [Liver cancer]({{ site.baseurl }}/class-material/class18/liver.txt){:.no-push-state}{:target="_blank"}
+  * [Lung cancer]({{ site.baseurl }}/class-material/class18/lung.txt){:.no-push-state}{:target="_blank"}
+  * [Skin cancer]({{ site.baseurl }}/class-material/class18/skin.txt){:.no-push-state}{:target="_blank"}
 
 ---
 <a name="19"></a>
@@ -677,32 +689,29 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
 
-<!--
-
 
 ---
 <a name="20"></a>
-## 20: GitHub pages online portfolio completion plus bonus Bioinformatics in industry session
+## 20: GitHub pages online portfolio building and discussion of bioinformatics in industry
 
-**Topics:** 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities.     
+**Topics:**  
+Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities. Livestream interview with leading bioinformatics and genomics scientists from industry. 
 
 **Videos:**  
-- 20.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
-- 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website.
-- 20.3 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*) and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+<!-- - 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website. -->
+- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+
+**Feedback:**
+- Course evaluation:
+  - [Ether-pad version](https://board.net/p/BIMM143_SP23_DiazGay){:.no-push-state}{:target="_blank"}
+  - Alternative [form version](https://forms.gle/phWPQtPpknDgoCMa6){:.no-push-state}{:target="_blank"}
 
 
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class19_F22.pdf){:.no-push-state}{:target="_blank"},  
-- Ether-pad: [**Feedback**](https://board.net/p/bimm143_f22){:.no-push-state}{:target="_blank"}.  
- 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20/class20_sp23.pdf){:.no-push-state}{:target="_blank"}
+- DataCamp: [Bioinformatics Extension Track]({{ site.baseurl }}/class-material/class20/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}
 
-
-- Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
-- DataCamp: [Bioinformatics Extension Track](https://bioboot.github.io/bimm143_W20/class-material/datacamp_extras.pdf){:.no-push-state}{:target="_blank"} 
-
-
+<!-- 
 Or student topic of choice to be selected from those below:
 
 - Biological network analysis
@@ -713,6 +722,5 @@ Or student topic of choice to be selected from those below:
 - Writing R packages
 - Advanced RMarkdown 
 - Creating online work portfolios with GitHub-pages    
-
-
  -->
+
