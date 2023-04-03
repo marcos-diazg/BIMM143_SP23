@@ -149,6 +149,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Readings: PDF2 [Fundamentals of database searching]({{ site.baseurl }}/class-material/class2/Fundamentals.pdf){:.no-push-state}
 
 
+<!-- 
 
 ---
 <a name="21"></a>
@@ -268,7 +269,7 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 - 5.2 - [Data visualization best practices](https://youtu.be/0WPeOxrboug){:.no-push-state}{:target="_blank"}
 - 5.3 - [Introduction to ggplot](https://youtu.be/qtfJa8muH9E){:.no-push-state}{:target="_blank"}
 <!-- - 5.4 - Optional: [The **g**rammar of **g**raphics - the **gg** in ggplot](https://vimeo.com/332290655){:.no-push-state}{:target="_blank"},    -->
-
+<!--
 **Hands-on Lab:**
 - Lab: [Hands-on worksheet]({{ site.baseurl }}/class-material/class5/lab5_sp23.html){:.no-push-state}{:target="_blank"}
 > Feedback: [Muddy point assessment](https://forms.gle/5uykvYTHTxvWjVfD9){:.no-push-state}{:target="_blank"}
@@ -428,7 +429,7 @@ Protein structure function relationships. Protein structure and visualization re
 <!-- - Alternate Windows install and setup cmd:<br>`curl -o "muscle.exe" "https://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86win32.exe"`   
 - Alternative Mac install and setup cmd:<br>`sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/muscle"; sudo chmod +x /usr/local/bin/muscle`  
 - Alternative M1 Mac install and setup cmd:<br>`sudo curl -o "/usr/local/bin/muscle" "http://thegrantlab.org/misc/m1/muscle"; sudo chmod +x /usr/local/bin/muscle`   -->
-
+<!--
 
 **Homework:**
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
@@ -699,7 +700,7 @@ Course summary and review. Making a public facing GitHub pages portfolio of your
 
 **Videos:**  
 <!-- - 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website. -->
-- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+<!-- - 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
 
 **Feedback:**
 - Course evaluation:
@@ -710,6 +711,9 @@ Course summary and review. Making a public facing GitHub pages portfolio of your
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20/class20_sp23.pdf){:.no-push-state}{:target="_blank"}
 - DataCamp: [Bioinformatics Extension Track]({{ site.baseurl }}/class-material/class20/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}
+
+ -->
+
 
 <!-- 
 Or student topic of choice to be selected from those below:
