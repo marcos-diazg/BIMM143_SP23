@@ -32,7 +32,7 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 16  | Fri 05/26/23  | [**Analyzing sequencing data in the cloud mini-project**](#16) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                                      |
 | 17  | Wed 05/31/23  | [**Vaccination rate mini-project**](#17) <br> A topical mini-project using ggplot and dplyr with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
 | 18  | Fri 06/02/23  | [**Mutational signatures of cancer mini-project**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures.                                                                                                                   |
-| 19  | Wed 06/07/23  | [**Investigating pertussis resurgence mini-project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs, and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination. <br>**Project: Find a gene assignment due\!**                                                                                                                                   |
+| 19  | Wed 06/07/23  | [**Pertussis resurgence mini-project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs, and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination. <br>**Project: Find a gene assignment due\!**                                                                                                                                   |
 | 20 | Fri 06/09/23 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. <br>Livestream interview with leading bioinformatics and genomics scientists from industry. <br>                                                                                                                                                                                                               |
 
 
@@ -563,6 +563,7 @@ Why you should use a version control system. How to perform common operations wi
 
 **Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class14/github_lab.html){:.no-push-state}{:target="_blank"}
+> Feedback: [Muddy-Point-Assessment](https://forms.gle/NiBJgDPQAfYyMa9P9){:.no-push-state}
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class14/slide_class16.pdf){:.no-push-state}{:target="_blank"}
@@ -656,23 +657,27 @@ A topical mini-project using ggplot and dplyr with the latest state wide COVID-1
 
 To be updated.   
 
+ -->
+
 
 ---
 <a name="19"></a>
-## 19: Mini Project: Investigating Pertussis Resurgence 
+## 19: Pertussis resurgence mini-project
 
-**Topics:** 
+**Topics:**  
 A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies.  
 
-- Lab: [Investigating pertussis resurgence mini-project]({{ site.baseurl }}/class-material/lab_sheet.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
-- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, 
-- Feedback: [Muddy-Point-Assessment](https://goo.gl/forms/gMxIBT5jLbjXHQPE2){:.no-push-state}.
+**Hands-on Lab:**
+- Lab: [Mini-Project]({{ site.baseurl }}/class-material/class19/lab19_sp23.html){:.no-push-state}{:target="_blank"}
 
+**Supporting material:**
+- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"} / The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
--  Generate a complete lab report with all sections and question responses for submission to gradescope.  
-- There are no homework quiz questions this week.
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
+
+<!--
 
 
 ---
