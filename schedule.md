@@ -85,9 +85,9 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 
 
 **Videos:**
-- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/FNXMFXZR6HU){:.no-push-state}{:target="_blank"},  
-- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"},  
-- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}.    
+- 1.1 - [Introduction to bioinformatics (what, where and why of bioinformatics)](https://youtu.be/FNXMFXZR6HU){:.no-push-state}{:target="_blank"}
+- 1.2 - [Major bioinformatics resource providers (NCBI and EBI)](https://youtu.be/o_IO7dDUZPM){:.no-push-state}{:target="_blank"}
+- 1.3 - [A quick tour of major NCBI and EBI resources (GENE, UniProt, GO, OMIM, PDB, PFAM)](https://youtu.be/afqB87ZSkXw){:.no-push-state}{:target="_blank"}
 
 **Hands-on Lab:**
 - Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/class1/lab1_sp23.pdf){:target="_blank"}{:.no-push-state}
@@ -100,7 +100,7 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 - Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
 
 **Homework:**  
-- [Quiz](https://forms.gle/iEBpDJz4qpiNsUit9){:.no-push-state}{:target="_blank"},  
+- [Quiz](https://forms.gle/iEBpDJz4qpiNsUit9){:.no-push-state}{:target="_blank"}
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 - Readings: 
   - PDF1: [What is bioinformatics? An introduction and overview]({{ site.baseurl }}/class-material/class1/bioinformatics_review.pdf){:.no-push-state}
@@ -112,7 +112,7 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 ## 2: Sequence alignment fundamentals, algorithms and applications
 
 **Topics:**  
-Sequence Alignment and Database Searching: Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values and evaluating alignment scores and statistics.
+Sequence Alignment and Database Searching: Homology, Sequence similarity, Local and global alignment, Heuristic approaches, Database searching with BLAST, E-values, and evaluating alignment scores and statistics.
 
 **Goals:**
 - Be able to describe how dynamic programming works for pairwise sequence alignment.  
@@ -139,7 +139,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 
 **Homework:**   
 - [Quiz](https://forms.gle/MgQbfcN3K1tAVs8L8){:.no-push-state}{:target="_blank"}
-- Submit your completed lab report (i.e. filled in PDF form) answering questions **Q1 to Q6** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
+- Submit your completed lab report (i.e. filled in PDF form) answering questions **Q1 to Q10** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/class2/wk2_homework.pdf){:.no-push-state}{:target="_blank"} and submit it to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}  
 - For next week please [install R and RStudio]({{ site.baseurl }}/setup/){:.no-push-state}{:target="_blank"}
 - DataCamp: Sign-up to our **BIMM143_DiazGay group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} 
