@@ -65,7 +65,9 @@ For the Spring 2023 quarter, BIMM 143 will be offered **in-person only** on Wedn
 
 
 ## Office hours
-In person and Zoom-based ([link](https://ucsd.zoom.us/j/92563499659?pwd=K25WVWMzdUVUVVFnNnNJY3JNUmlZdz09)) office hours will be available on a weekly basis at a time to be determined from student polling. For now, email me for a time and we will make it happen. Office hours are a time when you can come ask clarifying questions about the course material, chat about research, career goals, or about any other topics!
+In-person and Zoom-based office hours will be available on a weekly basis. Marcos office hours are in-person after class on Fridays (3pm) and on Zoom on Mondays at 12pm ([link](https://ucsd.zoom.us/j/92563499659?pwd=K25WVWMzdUVUVVFnNnNJY3JNUmlZdz09){:target="_blank"}). Josef office hours are on Zoom on Mondays at 4pm ([link](https://ucsd.zoom.us/j/94975093659){:target="_blank"}).
+
+Office hours are a time when you can come ask clarifying questions about the course material, chat about research, career goals, or about any other topics!
 
 
 ## Class announcements and communication

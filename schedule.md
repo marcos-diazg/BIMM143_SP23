@@ -97,7 +97,8 @@ Biology is an information science. History of Bioinformatics. Types of data. App
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class1/lecture1-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}  
 - Handout: [Major Bioinformatics Databases]({{ site.baseurl }}/class-material/class1/Major_Databases_BIMM143.pdf){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [Video walk-through](https://youtu.be/ps0BkDZaiwo){:target="_blank"}{:.no-push-state}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**  
 - [Quiz](https://forms.gle/iEBpDJz4qpiNsUit9){:.no-push-state}{:target="_blank"}
@@ -135,7 +136,8 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class2/lecture2-BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 - Dot Plot App Mirrors: [app-1](https://barryus.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"},  [app-2](https://bioboot.shinyapps.io/dotplot/){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [Video walk-through](https://youtu.be/U4u8jJqA2PI){:target="_blank"}{:.no-push-state}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
 - [Quiz](https://forms.gle/MgQbfcN3K1tAVs8L8){:.no-push-state}{:target="_blank"}
@@ -234,7 +236,8 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE. Major
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/class4/base-r.pdf){:target="_blank"}{:.no-push-state}
 - Screencast Lab: [Video walk-through](https://youtu.be/QQ7KPg2NnpY?t=1098){:target="_blank"}{:.no-push-state} focusing on introducing R data structures and core syntax
 - Optional extension: [Advanced conservation analysis of globins with R]({{ site.baseurl }}/class-material/class4/globin_analysis){:.no-push-state} this demonstrates where we are going on our R learning journey. You should be able to do analysis like this on your own at the end of the course.  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**
 - [Quiz](https://forms.gle/zLducArgkPY8ij5Z8){:.no-push-state}{:target="_blank"}
@@ -278,8 +281,9 @@ The exploratory data analysis mindset. Data visualization best practices. Simple
 - Screencast Lab: [Video walk-through](https://youtu.be/p9ap6X1V3mo){:target="_blank"}{:.no-push-state}
 - Side-Note: [Convincing with graphics](https://xkcd.com/833/){:.no-push-state}
 - Check-out the [Data-to-Viz](https://www.data-to-viz.com/){:.no-push-state}{:target="_blank"} website and the [ggplot cheat sheat](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf){:.no-push-state}{:target="_blank"}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
- 
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
+
 **Homework:**   
 - [Quiz](https://forms.gle/aDujhaRG3rtHUEoJ8){:.no-push-state}{:target="_blank"} 
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
@@ -315,7 +319,8 @@ The why, when and how of writing your own R functions with worked examples. Furt
 - Lecture Slides: [Pt1. Large PDF]({{ site.baseurl }}/class-material/class6/lecture06-BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Pt2. Large PDF]({{ site.baseurl }}/class-material/class6/lecture07-BIMM143-large.pdf){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [video walk-through](https://youtu.be/Zr9BVGGhaNc){:target="_blank"}{:.no-push-state}  
 - Bonus: [Introductory tutorial on R packages](https://www.datacamp.com/community/tutorials/r-packages-guide){:.no-push-state}{:target="_blank"}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"} 
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"} 
 
  
 **Homework:**   
@@ -363,7 +368,8 @@ Unsupervised learning, supervised learning, and reinforcement learning. Focus on
 - Data files: [UK_foods.csv]({{ site.baseurl }}/class-material/class7/UK_foods.csv){:.no-push-state} / [expression.csv]({{ site.baseurl }}/class-material/class7/expression.csv){:.no-push-state} 
 - Screencast Lab: [video walk-through](https://youtu.be/SERsmSnwpnk){:target="_blank"}{:.no-push-state}
 - Bonus: [StackExchange discussion on PCA](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa){:.no-push-state}{:target="_blank"}  
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
@@ -480,7 +486,8 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - [Galaxy Server](https://usegalaxy.org){:target="_blank"}{:.no-push-state}, create a free account for section 3 of the lab
 - RNA-Seq data files: [HG00109_1.fastq]({{ site.baseurl }}/class-material/class11/HG00109_1.fastq){:.no-push-state} / [HG00109_2.fastq]({{ site.baseurl }}/class-material/class11/HG00109_2.fastq){:.no-push-state} / [genes.chr17.gtf]({{ site.baseurl }}/class-material/class11/genes.chr17.gtf){:.no-push-state} / [Expression genotype results]({{ site.baseurl }}/class-material/class11/rs8067378_ENSG00000172057.6.txt){:.no-push-state}
 - [SAM/BAM file format description]({{ site.baseurl }}//class-material/class11/sam_format/){:.no-push-state}{:target="_blank"}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**
 - Submit your RMarkdown/Quarto generated PDF lab report answering questions **Q1 to Q12** to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
@@ -519,7 +526,8 @@ Analysis of RNA-Seq data with R. Differential expression tests. RNA-Seq statisti
 - Detailed [Bioconductor setup]({{ site.baseurl }}//class-material/class12/bioconductor_setup/){:.no-push-state}{:target="_blank"} instructions
 - Screencast Lab: [video walk-through](https://youtu.be/HnT1YL_KxQk){:target="_blank"}{:.no-push-state}
 - Data files: [airway_scaledcounts.csv]({{ site.baseurl }}/class-material/class12/airway_scaledcounts.csv){:.no-push-state} / [airway_metadata.csv]({{ site.baseurl }}/class-material/class12/airway_metadata.csv){:.no-push-state}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Readings**:
  - Excellent review article: [Conesa _et al_. A survey of best practices for RNA-seq data analysis. _Genome Biology_ (2016)](http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0881-8){:.no-push-state}
@@ -607,7 +615,8 @@ Bioinformatics on the command line. Why do we use UNIX for bioinformatics? UNIX 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class15/lecture16_BIMM143-large.pdf){:.no-push-state}{:target="_blank"} / [Small PDF]({{ site.baseurl }}/class-material/class15/lecture16_BIMM143-small.pdf){:.no-push-state}{:target="_blank"}
 - Screencast Lab: [launching an AWS EC2 instance](http://youtu.be/5-Nxt85UmoA){:.no-push-state}{:target="_blank"}
-- Office/Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Marcos): [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"}
+- Office/Student Hours (Josef): [Zoom on Mon at 4pm](https://ucsd.zoom.us/j/94975093659){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
 - [Questions]({{ site.baseurl }}/class-material/class15/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"}: complete PDF form with your answers, save, and submit to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
