@@ -31,9 +31,9 @@ For the Spring 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 15  | Wed 05/24/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line. Understanding processes. File system structure. Connecting to remote servers. Redirection, streams, and pipes. Workflows for batch processing. Launching and using AWS EC2 instances (or virtual machines).                                                                                                                                                                                                                                              |
 | 16  | Fri 05/26/23  | [**Analyzing sequencing data in the cloud mini-project**](#16) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                                      |
 | 17  | Wed 05/31/23  | [**Vaccination rate mini-project**](#17) <br> A topical mini-project using ggplot and dplyr with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
-| 18  | Fri 06/02/23  | [**Mutational signatures of cancer mini-project**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures.                                                                                                                   |
-| 19  | Wed 06/07/23  | [**Pertussis resurgence mini-project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs, and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination. <br>**Project: Find a gene assignment due\!**                                                                                                                                   |
-| 20 | Fri 06/09/23 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. <br>Livestream interview with leading bioinformatics and genomics scientists from industry. <br>                                                                                                                                                                                                               |
+| 18  | Fri 06/02/23  | [**Mutational signatures of cancer mini-project**](#18) <br> Cancer genomics resources and bioinformatics tools for investigating the molecular basis of cancer. Large scale cancer sequencing projects. The Cancer Genome Atlas project, the cBioPortal platform, and the COSMIC database. *De novo* extraction and assignment of mutational signatures. <br>**Find-a-gene project due\!**                                                                                                                   |
+| 19  | Wed 06/07/23  | [**Pertussis resurgence mini-project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs, and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
+| 20 | Fri 06/09/23 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. <br>Interview with leading bioinformatics and genomics scientists from industry. <br>                                                                                                                                                                                                               |
 
 
 
@@ -660,6 +660,8 @@ A topical mini-project using ggplot and dplyr with the latest state wide COVID-1
 **Homework:**   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
 
+**[OPTIONAL] Extra Credit:**
+- DataCamp: [Introduction to the Unix Shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs)
 
 ---
 <a name="18"></a>
@@ -680,6 +682,13 @@ A mini-project focusing on cancer genomics resources and bioinformatics tools fo
   * [Liver cancer]({{ site.baseurl }}/class-material/class18/liver.txt){:.no-push-state}{:target="_blank"}
   * [Lung cancer]({{ site.baseurl }}/class-material/class18/lung.txt){:.no-push-state}{:target="_blank"}
   * [Skin cancer]({{ site.baseurl }}/class-material/class18/skin.txt){:.no-push-state}{:target="_blank"}
+
+**Homework:**   
+- Find-a-gene project due on **Tuesday, June 6**.
+
+**[OPTIONAL] Extra Credit:**
+- Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
+- DataCamp: [Introduction to the Unix Shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs)
 
 ---
 <a name="19"></a>
@@ -704,22 +713,23 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 ## 20: GitHub pages online portfolio building and discussion of bioinformatics in industry
 
 **Topics:**  
-Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. Project assignment troubleshooting. Discussion of Bioinformatics and genomics career opportunities. Livestream interview with leading bioinformatics and genomics scientists from industry. 
+Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. Discussion of bioinformatics and genomics career opportunities. Interview with leading bioinformatics and genomics scientists from industry. 
+
+**Bioinformatics in industry session:**  
+Discussion of bioinformatics and genomics career opportunities with three leading bioinformatics and genomics scientists from industry:
+- **Jason Dai** (Bioinformatics scientist at _Thermo Fisher Scientific_)
+- **Dr. Sebastià Franch-Expósito** (Senior Translational Scientist at _Tempus Lab, Inc._)
+- **Dr. Daniela Nachmanson** (Bioinformatics Scientist II at _TwinStrand Biosciences_)
 
 **Videos:**  
 <!-- - 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website. -->
-- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research, *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator, *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics, *Synthetic Genomics Inc.*).
+- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research at *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator at *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics at *Synthetic Genomics Inc.*).
 
 **Feedback:**
 - Course evaluation:
   - [Ether-pad version](https://board.net/p/BIMM143_SP23_DiazGay){:.no-push-state}{:target="_blank"}
   - Alternative [form version](https://forms.gle/phWPQtPpknDgoCMa6){:.no-push-state}{:target="_blank"}
 
-
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20/class20_sp23.pdf){:.no-push-state}{:target="_blank"}
 - DataCamp: [Bioinformatics Extension Track]({{ site.baseurl }}/class-material/class20/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}
-
-
-
-
