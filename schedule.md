@@ -718,6 +718,7 @@ Course summary and review. Making a public facing GitHub pages portfolio of your
 **Bioinformatics in industry session:**  
 Discussion of bioinformatics and genomics career opportunities with three leading bioinformatics and genomics scientists from industry:
 - **Jason Dai** (Bioinformatics scientist at _Thermo Fisher Scientific_)
+- **Uma Mahto** (Product Manager at _Guardant Health_)
 - **Dr. Sebastià Franch-Expósito** (Senior Translational Scientist at _Tempus Lab, Inc._)
 - **Dr. Daniela Nachmanson** (Bioinformatics Scientist II at _TwinStrand Biosciences_)
 
