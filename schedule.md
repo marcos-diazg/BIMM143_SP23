@@ -654,7 +654,7 @@ A topical mini-project using ggplot and dplyr with the latest state wide COVID-1
 - Lab: [Mini-Project]({{ site.baseurl }}/class-material/class17/lab17_sp23.html){:.no-push-state}{:target="_blank"}
 
 **Supporting material:**
-- Data files: [Statewide COVID-19 vaccines administered by ZIP code (updated: 2023/02/28)]({{ site.baseurl }}/class-material/class17/covid19vaccinesbyzipcode.csv){:.no-push-state}{:target="_blank"}
+- Data files: [Statewide COVID-19 vaccines administered by ZIP code (updated: 2023/05/23)]({{ site.baseurl }}/class-material/class17/covid19vaccinesbyzipcode_test.csv){:.no-push-state}{:target="_blank"}
 - Original source of the COVID-19 vaccination data at the [California Open Data Portal](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}
 
 **Homework:**   
