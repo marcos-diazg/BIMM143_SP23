@@ -715,22 +715,30 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 **Topics:**  
 Course summary and review. Making a public facing GitHub pages portfolio of your bioinformatics work. Discussion of bioinformatics and genomics career opportunities. Interview with leading bioinformatics and genomics scientists from industry. 
 
-**Bioinformatics in industry session:**  
-Discussion of bioinformatics and genomics career opportunities with three leading bioinformatics and genomics scientists from industry:
-- **Jason Dai** (Bioinformatics scientist at _Thermo Fisher Scientific_)
-- **Uma Mahto** (Product Manager at _Guardant Health_)
-- **Dr. Sebastià Franch-Expósito** (Senior Translational Scientist at _Tempus Lab, Inc._)
-- **Dr. Daniela Nachmanson** (Bioinformatics Scientist II at _TwinStrand Biosciences_)
-
-**Videos:**  
-<!-- - 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website. -->
-- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research at *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator at *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics at *Synthetic Genomics Inc.*).
+**Lecture:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20/class20_sp23.pdf){:.no-push-state}{:target="_blank"}
 
 **Feedback:**
 - Course evaluation:
   - [Ether-pad version](https://board.net/p/BIMM143_SP23_DiazGay){:.no-push-state}{:target="_blank"}
   - Alternative [form version](https://forms.gle/phWPQtPpknDgoCMa6){:.no-push-state}{:target="_blank"}
 
+**Bioinformatics in industry session:**  
+Discussion of bioinformatics and genomics career opportunities with four leading bioinformatics and genomics scientists from industry:
+- Live session (**1:30pm**):
+  - **Dr. Sebastià Franch-Expósito** (Senior Translational Scientist at _Tempus Lab, Inc._)
+  - **Uma Mahto** (Product Manager at _Guardant Health_)
+  - **Dr. Daniela Nachmanson** (Bioinformatics Scientist II at _TwinStrand Biosciences_)
+- Prerecorded:
+  - **Jason Dai** (Bioinformatics scientist at _Thermo Fisher Scientific_): [Prerecorded interview](https://youtu.be/c0n907wpoTQ){:.no-push-state}{:target="_blank"}
+
+
+**Videos:**  
+<!-- - 20.2 [Introduction to GitHub Pages](https://youtu.be/2MsN8gpT6jY){:.no-push-state}{:target="_blank"} that we will use for building your portfolio website. -->
+- 20.1 [**Live stream interview**](https://youtu.be/UFYeovcGcwY){:.no-push-state}{:target="_blank"} with leading bioinformatics and genomics scientists from industry including **Dr. Ali Crawford** (Associate Director, Scientific Research at *Illumina Inc.*), **Dr. Bjoern Peters** (Full Professor and Principal Investigator at *La Jolla Institute*), and **Dr. Ana Grant** (Director of Research Informatics at *Synthetic Genomics Inc.*).
+
 **Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20/class20_sp23.pdf){:.no-push-state}{:target="_blank"}
 - DataCamp: [Bioinformatics Extension Track]({{ site.baseurl }}/class-material/class20/datacamp_extras.pdf){:.no-push-state}{:target="_blank"}
+
+**Homework:**   
+- Submit your GitHub page URL to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"}
